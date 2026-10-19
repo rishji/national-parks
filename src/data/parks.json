@@ -1,0 +1,2274 @@
+[
+  {
+    "id": "acadia",
+    "name": "Acadia",
+    "npsCode": "ACAD",
+    "lat": 44.35,
+    "lon": -68.21,
+    "states": [
+      "Maine"
+    ],
+    "region": "East",
+    "established": "1919-02-26",
+    "acres": 49071.4,
+    "visitors": 4079318,
+    "visitorsYear": 2025,
+    "sizeRank": 49,
+    "visitorRank": 7,
+    "description": "Granite peaks meet the Atlantic on Maine's Mount Desert Island. Cadillac Mountain catches some of the nation's earliest sunrises, while carriage roads, rocky shoreline and quiet ponds fill the rest of the park.",
+    "highlights": [
+      "Cadillac Mountain sunrise",
+      "Park Loop Road",
+      "Jordan Pond",
+      "Carriage roads"
+    ],
+    "bestSeason": "Jun–Oct",
+    "nearestAirport": "Bangor (BGR) · ~1 hr drive",
+    "npsUrl": "https://www.nps.gov/acad/",
+    "kind": "coast",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_view_at_sunset_of_Jordan_Pond_from_South_Bubble_(ce36f6ac-3a95-4d10-a73e-b8f44b8b5af8).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/acad/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "american-samoa",
+    "name": "American Samoa",
+    "npsCode": "NPSA",
+    "lat": -14.25,
+    "lon": -170.68,
+    "states": [
+      "American Samoa"
+    ],
+    "region": "Hawaiʻi & Pacific",
+    "established": "1988-10-31",
+    "acres": 8256.67,
+    "visitors": 43258,
+    "visitorsYear": 2025,
+    "sizeRank": 60,
+    "visitorRank": 58,
+    "description": "The only U.S. national park south of the equator spans parts of three Samoan islands. Rainforest climbs steep volcanic ridges above coral reefs, sheltering flying foxes and a living Samoan culture.",
+    "highlights": [
+      "Mount ʻAlava Trail",
+      "Ofu Beach",
+      "Coral reef snorkeling",
+      "Pola Island"
+    ],
+    "bestSeason": "Jun–Sep",
+    "nearestAirport": "Pago Pago (PPG) · ~30 min drive",
+    "npsUrl": "https://www.nps.gov/npsa/",
+    "kind": "island",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ofu_Beach_American_Samoa_US_National_Park_Service.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/npsa/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "arches",
+    "name": "Arches",
+    "npsCode": "ARCH",
+    "lat": 38.68,
+    "lon": -109.57,
+    "states": [
+      "Utah"
+    ],
+    "region": "Southwest",
+    "established": "1971-11-12",
+    "acres": 76678.98,
+    "visitors": 1511740,
+    "visitorsYear": 2025,
+    "sizeRank": 44,
+    "visitorRank": 21,
+    "description": "More than 2,000 natural stone arches stand in this red-rock desert outside Moab, the densest collection on Earth. Balanced rocks, fins and spires surround icons like Delicate Arch, shaped by water, ice and salt.",
+    "highlights": [
+      "Delicate Arch",
+      "The Windows",
+      "Devils Garden",
+      "Fiery Furnace"
+    ],
+    "bestSeason": "Mar–May, Sep–Oct",
+    "nearestAirport": "Grand Junction (GJT) · ~1.75 hr drive",
+    "npsUrl": "https://www.nps.gov/arch/",
+    "kind": "arch",
+    "heroPhoto": {
+      "credit": "NPS / Neal Herbert",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Double_O_Arch_is_one_of_the_seven_arches_that_visible_from_trails_in_Devils_Garden._(1fe16d77-155d-451f-67be-aa70882ebd52).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/arch/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "badlands",
+    "name": "Badlands",
+    "npsCode": "BADL",
+    "lat": 43.75,
+    "lon": -102.5,
+    "states": [
+      "South Dakota"
+    ],
+    "region": "Great Plains",
+    "established": "1978-11-10",
+    "acres": 242755.94,
+    "visitors": 1139361,
+    "visitorsYear": 2025,
+    "sizeRank": 28,
+    "visitorRank": 26,
+    "description": "Striped buttes and pinnacles rise from one of the largest protected mixed-grass prairies in the country. The eroding rock holds a rich fossil record, and bison, bighorn sheep and prairie dogs roam the grassland.",
+    "highlights": [
+      "Badlands Loop Road",
+      "Notch Trail",
+      "Door Trail",
+      "Yellow Mounds Overlook"
+    ],
+    "bestSeason": "May–Jun, Sep–Oct",
+    "nearestAirport": "Rapid City (RAP) · ~1.25 hr drive",
+    "npsUrl": "https://www.nps.gov/badl/",
+    "kind": "hoodoo",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Badlands_National_Park_at_low_light.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/badl/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "big-bend",
+    "name": "Big Bend",
+    "npsCode": "BIBE",
+    "lat": 29.25,
+    "lon": -103.25,
+    "states": [
+      "Texas"
+    ],
+    "region": "Southwest",
+    "established": "1944-06-12",
+    "acres": 801163.21,
+    "visitors": 568104,
+    "visitorsYear": 2025,
+    "sizeRank": 14,
+    "visitorRank": 38,
+    "description": "Where the Rio Grande bends along the Mexican border, the Chihuahuan Desert meets the Chisos Mountains. River canyons, hot springs and sky-island forests make it one of the most remote parks in the lower 48.",
+    "highlights": [
+      "Santa Elena Canyon",
+      "Chisos Basin",
+      "Lost Mine Trail",
+      "Boquillas Canyon"
+    ],
+    "bestSeason": "Nov–Apr",
+    "nearestAirport": "Midland (MAF) · ~3.5 hr drive",
+    "npsUrl": "https://www.nps.gov/bibe/",
+    "kind": "desert",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Bend_National_Park_PB112599.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/bibe/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "biscayne",
+    "name": "Biscayne",
+    "npsCode": "BISC",
+    "lat": 25.65,
+    "lon": -80.08,
+    "states": [
+      "Florida"
+    ],
+    "region": "South",
+    "established": "1980-06-28",
+    "acres": 172971.11,
+    "visitors": 486567,
+    "visitorsYear": 2025,
+    "sizeRank": 35,
+    "visitorRank": 41,
+    "description": "Ninety-five percent water, Biscayne protects a shallow bay, a chain of keys and part of a vast coral reef, all within sight of Miami's skyline. It is best explored by boat, kayak or snorkel.",
+    "highlights": [
+      "Boca Chita Key",
+      "Maritime Heritage Trail",
+      "Coral reef snorkeling",
+      "Elliott Key"
+    ],
+    "bestSeason": "Nov–Apr",
+    "nearestAirport": "Miami (MIA) · ~1 hr drive",
+    "npsUrl": "https://www.nps.gov/bisc/",
+    "kind": "island",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Biscayne_NP_snorkeling.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/bisc/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "black-canyon-of-the-gunnison",
+    "name": "Black Canyon of the Gunnison",
+    "npsCode": "BLCA",
+    "lat": 38.57,
+    "lon": -107.72,
+    "states": [
+      "Colorado"
+    ],
+    "region": "Rocky Mountains",
+    "established": "1999-10-21",
+    "acres": 30779.83,
+    "visitors": 250086,
+    "visitorsYear": 2025,
+    "sizeRank": 55,
+    "visitorRank": 50,
+    "description": "The Gunnison River carved this sheer, narrow gorge so deep that parts of it get only minutes of sunlight a day. The Painted Wall, streaked with pale pegmatite, is the tallest cliff in Colorado.",
+    "highlights": [
+      "Painted Wall",
+      "South Rim Road",
+      "Gunnison Point",
+      "East Portal"
+    ],
+    "bestSeason": "May–Oct",
+    "nearestAirport": "Montrose (MTJ) · ~30 min drive",
+    "npsUrl": "https://www.nps.gov/blca/",
+    "kind": "canyon",
+    "heroPhoto": {
+      "credit": "NPS / Lisa Lynch",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Painted_Wall,_Black_Canyon_Of_The_Gunnison.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/blca/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "bryce-canyon",
+    "name": "Bryce Canyon",
+    "npsCode": "BRCA",
+    "lat": 37.57,
+    "lon": -112.18,
+    "states": [
+      "Utah"
+    ],
+    "region": "Southwest",
+    "established": "1928-02-25",
+    "acres": 35835.08,
+    "visitors": 1967367,
+    "visitorsYear": 2025,
+    "sizeRank": 51,
+    "visitorRank": 16,
+    "description": "Not truly a canyon, Bryce is a chain of natural amphitheaters packed with thousands of orange and white hoodoos. Its high plateau, above 8,000 feet, also has some of the darkest night skies in the country.",
+    "highlights": [
+      "Navajo Loop & Queen's Garden",
+      "Sunrise & Sunset Points",
+      "Inspiration Point",
+      "Fairyland Loop"
+    ],
+    "bestSeason": "May–Jun, Sep–Oct",
+    "nearestAirport": "St. George (SGU) · ~2.5 hr drive",
+    "npsUrl": "https://www.nps.gov/brca/",
+    "kind": "hoodoo",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bryce_Canyon_National_Park_BRCA0642.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/brca/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "canyonlands",
+    "name": "Canyonlands",
+    "npsCode": "CANY",
+    "lat": 38.2,
+    "lon": -109.93,
+    "states": [
+      "Utah"
+    ],
+    "region": "Southwest",
+    "established": "1964-09-12",
+    "acres": 337597.83,
+    "visitors": 796057,
+    "visitorsYear": 2025,
+    "sizeRank": 24,
+    "visitorRank": 29,
+    "description": "The Colorado and Green rivers divide this vast desert into districts of mesas, buttes and deep canyons. Island in the Sky offers sweeping overlooks, while the Needles and the Maze reward hikers with remote backcountry.",
+    "highlights": [
+      "Mesa Arch",
+      "Grand View Point",
+      "The Needles",
+      "Shafer Trail"
+    ],
+    "bestSeason": "Apr–May, Sep–Oct",
+    "nearestAirport": "Grand Junction (GJT) · ~2 hr drive",
+    "npsUrl": "https://www.nps.gov/cany/",
+    "kind": "canyon",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mesa_Arch_(Island_in_the_Sky)_(7167155236).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/cany/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "capitol-reef",
+    "name": "Capitol Reef",
+    "npsCode": "CARE",
+    "lat": 38.2,
+    "lon": -111.17,
+    "states": [
+      "Utah"
+    ],
+    "region": "Southwest",
+    "established": "1971-12-18",
+    "acres": 241904.5,
+    "visitors": 1388476,
+    "visitorsYear": 2025,
+    "sizeRank": 29,
+    "visitorRank": 22,
+    "description": "Capitol Reef follows the Waterpocket Fold, a 100-mile wrinkle in the Earth's crust. Colorful cliffs, domes and slot canyons surround Fruita, a historic pioneer settlement whose orchards are still open for picking.",
+    "highlights": [
+      "Waterpocket Fold",
+      "Hickman Bridge",
+      "Cassidy Arch",
+      "Fruita orchards"
+    ],
+    "bestSeason": "Apr–May, Sep–Oct",
+    "nearestAirport": "Salt Lake City (SLC) · ~3.5 hr drive",
+    "npsUrl": "https://www.nps.gov/care/",
+    "kind": "canyon",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_from_Navajo_Knobs_Trail_(0277f646-570c-472d-9151-378182b2888b).JPG"
+    },
+    "sources": [
+      "https://www.nps.gov/care/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "carlsbad-caverns",
+    "name": "Carlsbad Caverns",
+    "npsCode": "CAVE",
+    "lat": 32.17,
+    "lon": -104.44,
+    "states": [
+      "New Mexico"
+    ],
+    "region": "Southwest",
+    "established": "1930-05-14",
+    "acres": 46766.45,
+    "visitors": 410778,
+    "visitorsYear": 2025,
+    "sizeRank": 50,
+    "visitorRank": 46,
+    "description": "Beneath the Guadalupe Mountains lie more than 119 caves dissolved by sulfuric acid. The Big Room is one of North America's largest cave chambers, and summer dusk brings huge flights of bats out of the entrance.",
+    "highlights": [
+      "Big Room",
+      "Natural Entrance Trail",
+      "Bat flight program",
+      "King's Palace tour"
+    ],
+    "bestSeason": "Year-round; May–Oct for bats",
+    "nearestAirport": "El Paso (ELP) · ~2.5 hr drive",
+    "npsUrl": "https://www.nps.gov/cave/",
+    "kind": "cave",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carlsbad_Caverns_National_Park_P1012861.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/cave/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "channel-islands",
+    "name": "Channel Islands",
+    "npsCode": "CHIS",
+    "lat": 34.01,
+    "lon": -119.42,
+    "states": [
+      "California"
+    ],
+    "region": "California & Nevada",
+    "established": "1980-03-05",
+    "acres": 249561,
+    "visitors": 227186,
+    "visitorsYear": 2025,
+    "sizeRank": 27,
+    "visitorRank": 51,
+    "description": "Five islands off the Southern California coast form this park, home to plants and animals found nowhere else, like the island fox. Sea caves, kelp forests and seabird colonies reward the boat ride from Ventura.",
+    "highlights": [
+      "Painted Cave",
+      "Scorpion Anchorage kayaking",
+      "Inspiration Point",
+      "Island fox"
+    ],
+    "bestSeason": "Apr–May, Sep–Oct",
+    "nearestAirport": "Los Angeles (LAX) · ~1.25 hr drive + ferry",
+    "npsUrl": "https://www.nps.gov/chis/",
+    "kind": "island",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Channel_Islands_National_Park_CHIS8063.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/chis/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "congaree",
+    "name": "Congaree",
+    "npsCode": "CONG",
+    "lat": 33.78,
+    "lon": -80.78,
+    "states": [
+      "South Carolina"
+    ],
+    "region": "South",
+    "established": "2003-11-10",
+    "acres": 26692.6,
+    "visitors": 287833,
+    "visitorsYear": 2025,
+    "sizeRank": 56,
+    "visitorRank": 49,
+    "description": "Congaree protects the largest intact old-growth bottomland hardwood forest left in the Southeast. Towering bald cypress and loblolly pines rise above a floodplain explored by boardwalk and by canoe on Cedar Creek.",
+    "highlights": [
+      "Boardwalk Loop",
+      "Cedar Creek paddling",
+      "Synchronous fireflies",
+      "Champion trees"
+    ],
+    "bestSeason": "Mar–May, Oct–Nov",
+    "nearestAirport": "Columbia (CAE) · ~30 min drive",
+    "npsUrl": "https://www.nps.gov/cong/",
+    "kind": "swamp",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Congaree_National_Park_is_located_in_South_Carolina_and_was_added_to_the_Network_in_2020._During_the_Civil_War,_the_floodplain_(6697d8d3-80a5-4c87-8624-697c3c21ce72).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/cong/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "crater-lake",
+    "name": "Crater Lake",
+    "npsCode": "CRLA",
+    "lat": 42.94,
+    "lon": -122.1,
+    "states": [
+      "Oregon"
+    ],
+    "region": "Pacific Northwest",
+    "established": "1902-05-22",
+    "acres": 183224.05,
+    "visitors": 632242,
+    "visitorsYear": 2025,
+    "sizeRank": 34,
+    "visitorRank": 36,
+    "description": "Crater Lake fills the collapsed caldera of Mount Mazama, which erupted about 7,700 years ago. Fed almost entirely by rain and snow, it is the deepest lake in the U.S. and famous for its vivid blue water.",
+    "highlights": [
+      "Rim Drive",
+      "Wizard Island",
+      "Cleetwood Cove Trail",
+      "Watchman Peak"
+    ],
+    "bestSeason": "Jul–Sep",
+    "nearestAirport": "Medford (MFR) · ~1.5 hr drive",
+    "npsUrl": "https://www.nps.gov/crla/",
+    "kind": "lake",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wildflowers_at_Crater_Lake_(9ec591e9-1dd8-b71b-0b6e-3366774e060f).JPG"
+    },
+    "sources": [
+      "https://www.nps.gov/crla/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "cuyahoga-valley",
+    "name": "Cuyahoga Valley",
+    "npsCode": "CUVA",
+    "lat": 41.24,
+    "lon": -81.55,
+    "states": [
+      "Ohio"
+    ],
+    "region": "Midwest",
+    "established": "2000-10-11",
+    "acres": 32571.89,
+    "visitors": 3025325,
+    "visitorsYear": 2025,
+    "sizeRank": 54,
+    "visitorRank": 11,
+    "description": "Between Cleveland and Akron, the Cuyahoga River winds through forest, farmland and sandstone ledges. The Towpath Trail traces the historic Ohio & Erie Canal, and Brandywine Falls drops 60 feet into a wooded gorge.",
+    "highlights": [
+      "Brandywine Falls",
+      "Towpath Trail",
+      "The Ledges",
+      "Scenic railroad"
+    ],
+    "bestSeason": "May–Oct",
+    "nearestAirport": "Cleveland (CLE) · ~30 min drive",
+    "npsUrl": "https://www.nps.gov/cuva/",
+    "kind": "waterfall",
+    "heroPhoto": {
+      "credit": "NPS / Victoria Stauffenberg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuyahoga_Valley_National_Park_(45bc442d-1f36-432b-a1af-06617619b38a).JPG"
+    },
+    "sources": [
+      "https://www.nps.gov/cuva/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "death-valley",
+    "name": "Death Valley",
+    "npsCode": "DEVA",
+    "lat": 36.24,
+    "lon": -116.82,
+    "states": [
+      "California",
+      "Nevada"
+    ],
+    "region": "California & Nevada",
+    "established": "1994-10-31",
+    "acres": 3408395.63,
+    "visitors": 1320134,
+    "visitorsYear": 2025,
+    "sizeRank": 5,
+    "visitorRank": 24,
+    "description": "The hottest, driest and lowest national park bottoms out 282 feet below sea level at Badwater Basin. Salt flats, dunes, colorful badlands and snowy peaks share the largest park outside Alaska.",
+    "highlights": [
+      "Badwater Basin",
+      "Zabriskie Point",
+      "Mesquite Flat Sand Dunes",
+      "Artists Palette"
+    ],
+    "bestSeason": "Nov–Mar",
+    "nearestAirport": "Las Vegas (LAS) · ~2 hr drive",
+    "npsUrl": "https://www.nps.gov/deva/",
+    "kind": "dunes",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thimble_Peak_and_the_Cottonwood_Mountains_rise_above_Mesquite_Flat_Sand_Dunes._(105bfe72-28d2-427f-8605-1c77628ed87b).JPG"
+    },
+    "sources": [
+      "https://www.nps.gov/deva/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "denali",
+    "name": "Denali",
+    "npsCode": "DENA",
+    "lat": 63.33,
+    "lon": -150.5,
+    "states": [
+      "Alaska"
+    ],
+    "region": "Alaska",
+    "established": "1917-02-26",
+    "acres": 4740911.16,
+    "visitors": 543300,
+    "visitorsYear": 2025,
+    "sizeRank": 3,
+    "visitorRank": 39,
+    "description": "Six million acres of tundra, taiga and glaciers surround Denali, North America's tallest peak. A single road leads into the wilderness, where grizzlies, moose, caribou and wolves roam freely.",
+    "highlights": [
+      "Denali (20,310 ft)",
+      "Park Road bus tour",
+      "Wonder Lake",
+      "Savage River"
+    ],
+    "bestSeason": "Jun–Aug",
+    "nearestAirport": "Fairbanks (FAI) · ~2 hr drive",
+    "npsUrl": "https://www.nps.gov/dena/",
+    "kind": "mountain",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wonder_Lake_and_Denali.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/dena/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "dry-tortugas",
+    "name": "Dry Tortugas",
+    "npsCode": "DRTO",
+    "lat": 24.63,
+    "lon": -82.87,
+    "states": [
+      "Florida"
+    ],
+    "region": "South",
+    "established": "1992-10-26",
+    "acres": 64701.22,
+    "visitors": 89355,
+    "visitorsYear": 2025,
+    "sizeRank": 47,
+    "visitorRank": 56,
+    "description": "Seventy miles west of Key West, this park is mostly open water and seven small islands. Massive 19th-century Fort Jefferson fills Garden Key, ringed by clear water, coral reefs and nesting sooty terns.",
+    "highlights": [
+      "Fort Jefferson",
+      "Garden Key snorkeling",
+      "Loggerhead Key",
+      "Bush Key seabirds"
+    ],
+    "bestSeason": "Nov–Apr",
+    "nearestAirport": "Key West (EYW) · 2.25 hr ferry",
+    "npsUrl": "https://www.nps.gov/drto/",
+    "kind": "island",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fort-Jefferson_Dry-Tortugas.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/drto/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "everglades",
+    "name": "Everglades",
+    "npsCode": "EVER",
+    "lat": 25.32,
+    "lon": -80.93,
+    "states": [
+      "Florida"
+    ],
+    "region": "South",
+    "established": "1934-05-30",
+    "acres": 1508938.57,
+    "visitors": 778198,
+    "visitorsYear": 2025,
+    "sizeRank": 10,
+    "visitorRank": 31,
+    "description": "The largest subtropical wilderness in the U.S., the Everglades is a slow river of sawgrass flowing toward Florida Bay. Mangroves, cypress and pinelands shelter alligators, manatees, wading birds and the rare Florida panther.",
+    "highlights": [
+      "Anhinga Trail",
+      "Shark Valley",
+      "Flamingo",
+      "Ten Thousand Islands"
+    ],
+    "bestSeason": "Dec–Apr",
+    "nearestAirport": "Miami (MIA) · ~1 hr drive",
+    "npsUrl": "https://www.nps.gov/ever/",
+    "kind": "swamp",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_over_the_River_of_Grass,_NPSphoto,_G.Gardner_(9255157507).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/ever/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "gates-of-the-arctic",
+    "name": "Gates of the Arctic",
+    "npsCode": "GAAR",
+    "lat": 67.78,
+    "lon": -153.3,
+    "states": [
+      "Alaska"
+    ],
+    "region": "Alaska",
+    "established": "1980-12-02",
+    "acres": 7523897.45,
+    "visitors": 14923,
+    "visitorsYear": 2025,
+    "sizeRank": 2,
+    "visitorRank": 62,
+    "description": "Entirely north of the Arctic Circle, this is the least-visited national park, with no roads or trails. Rugged Brooks Range peaks, wild rivers and migrating caribou define a wilderness reached only by air or on foot.",
+    "highlights": [
+      "Brooks Range",
+      "Arrigetch Peaks",
+      "Wild rivers",
+      "Caribou migration"
+    ],
+    "bestSeason": "Jun–Aug",
+    "nearestAirport": "Fairbanks (FAI) · flight + bush plane",
+    "npsUrl": "https://www.nps.gov/gaar/",
+    "kind": "mountain",
+    "heroPhoto": {
+      "credit": "NPS / Sean Tevebaugh",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Remote_river_in_Gates_of_the_Arctic_(16524035298).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/gaar/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "gateway-arch",
+    "name": "Gateway Arch",
+    "npsCode": "JEFF",
+    "lat": 38.63,
+    "lon": -90.19,
+    "states": [
+      "Missouri"
+    ],
+    "region": "Midwest",
+    "established": "2018-02-22",
+    "acres": 192.83,
+    "visitors": 2209028,
+    "visitorsYear": 2025,
+    "sizeRank": 63,
+    "visitorRank": 15,
+    "description": "The 630-foot stainless-steel Gateway Arch on the St. Louis riverfront honors westward expansion. A tram rides to the top, while the museum below and the Old Courthouse tell stories of exploration and the Dred Scott case.",
+    "highlights": [
+      "Tram ride to the top",
+      "Museum at the Gateway Arch",
+      "Old Courthouse",
+      "Mississippi riverfront"
+    ],
+    "bestSeason": "Apr–Jun, Sep–Oct",
+    "nearestAirport": "St. Louis (STL) · ~25 min drive",
+    "npsUrl": "https://www.nps.gov/jeff/",
+    "kind": "arch",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spring_is_in_the_air_at_the_Gateway_Arch_(28628117728).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/jeff/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "glacier",
+    "name": "Glacier",
+    "npsCode": "GLAC",
+    "lat": 48.8,
+    "lon": -114,
+    "states": [
+      "Montana"
+    ],
+    "region": "Rocky Mountains",
+    "established": "1910-05-11",
+    "acres": 1013126.39,
+    "visitors": 3136557,
+    "visitorsYear": 2025,
+    "sizeRank": 12,
+    "visitorRank": 10,
+    "description": "Ice-carved peaks, hundreds of lakes and remnant glaciers fill Montana's Crown of the Continent. Going-to-the-Sun Road crosses the Continental Divide, and trails climb to meadows full of wildflowers and mountain goats.",
+    "highlights": [
+      "Going-to-the-Sun Road",
+      "Grinnell Glacier",
+      "Many Glacier",
+      "Lake McDonald"
+    ],
+    "bestSeason": "Jul–Sep",
+    "nearestAirport": "Kalispell (FCA) · ~30 min drive",
+    "npsUrl": "https://www.nps.gov/glac/",
+    "kind": "glacier",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Many_Glacier_Hotel_Green_(52396054368).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/glac/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "glacier-bay",
+    "name": "Glacier Bay",
+    "npsCode": "GLBA",
+    "lat": 58.5,
+    "lon": -137,
+    "states": [
+      "Alaska"
+    ],
+    "region": "Alaska",
+    "established": "1980-12-02",
+    "acres": 3223383.43,
+    "visitors": 740044,
+    "visitorsYear": 2025,
+    "sizeRank": 6,
+    "visitorRank": 32,
+    "description": "Tidewater glaciers spill from snowy mountains into the fjords of Glacier Bay, which was almost all ice just 250 years ago. Most visitors arrive by ship to watch glaciers calve and spot whales, sea otters and bears.",
+    "highlights": [
+      "Margerie Glacier",
+      "Tarr Inlet",
+      "Bartlett Cove",
+      "Humpback whales"
+    ],
+    "bestSeason": "Jun–Aug",
+    "nearestAirport": "Juneau (JNU) · 30 min flight",
+    "npsUrl": "https://www.nps.gov/glba/",
+    "kind": "glacier",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Margerie_Glacier_winds_up_into_the_high_Fairthweather_Mountains_(3f230eb6-b3ae-4804-afbb-4c494f177615).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/glba/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "grand-canyon",
+    "name": "Grand Canyon",
+    "npsCode": "GRCA",
+    "lat": 36.06,
+    "lon": -112.14,
+    "states": [
+      "Arizona"
+    ],
+    "region": "Southwest",
+    "established": "1919-02-26",
+    "acres": 1201647.03,
+    "visitors": 4430653,
+    "visitorsYear": 2025,
+    "sizeRank": 11,
+    "visitorRank": 4,
+    "description": "Over millions of years the Colorado River carved this mile-deep canyon, exposing nearly two billion years of rock. The views from the South and North rims are among the most famous on Earth.",
+    "highlights": [
+      "South Rim viewpoints",
+      "Bright Angel Trail",
+      "Desert View Watchtower",
+      "North Rim"
+    ],
+    "bestSeason": "Mar–May, Sep–Nov",
+    "nearestAirport": "Phoenix (PHX) · ~3.5 hr drive",
+    "npsUrl": "https://www.nps.gov/grca/",
+    "kind": "canyon",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_National_Park_GRCA9862.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/grca/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "grand-teton",
+    "name": "Grand Teton",
+    "npsCode": "GRTE",
+    "lat": 43.73,
+    "lon": -110.8,
+    "states": [
+      "Wyoming"
+    ],
+    "region": "Rocky Mountains",
+    "established": "1929-02-26",
+    "acres": 310044.36,
+    "visitors": 3800648,
+    "visitorsYear": 2025,
+    "sizeRank": 25,
+    "visitorRank": 8,
+    "description": "The jagged Teton Range rises more than 7,000 feet straight up from the valley of Jackson Hole, with no foothills in between. Glacial lakes, the Snake River and sagebrush flats draw moose, elk and pronghorn.",
+    "highlights": [
+      "Mormon Row barns",
+      "Jenny Lake & Cascade Canyon",
+      "Oxbow Bend",
+      "Schwabacher Landing"
+    ],
+    "bestSeason": "Jun–Sep",
+    "nearestAirport": "Jackson Hole (JAC) · ~15 min drive",
+    "npsUrl": "https://www.nps.gov/grte/",
+    "kind": "mountain",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Teton_National_Park_and_John_D._Rockefeller,_Jr._Memorial_Parkway_GRTE1878.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/grte/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "great-basin",
+    "name": "Great Basin",
+    "npsCode": "GRBA",
+    "lat": 38.98,
+    "lon": -114.3,
+    "states": [
+      "Nevada"
+    ],
+    "region": "California & Nevada",
+    "established": "1986-10-27",
+    "acres": 77180,
+    "visitors": 161210,
+    "visitorsYear": 2025,
+    "sizeRank": 43,
+    "visitorRank": 54,
+    "description": "Rising from the Nevada desert, Wheeler Peak shelters bristlecone pines that are among the oldest living things on Earth. Below ground, Lehman Caves is full of rare shield formations, and the night skies are exceptionally dark.",
+    "highlights": [
+      "Lehman Caves",
+      "Wheeler Peak",
+      "Bristlecone pine grove",
+      "Dark night skies"
+    ],
+    "bestSeason": "Jun–Sep",
+    "nearestAirport": "Salt Lake City (SLC) · ~4 hr drive",
+    "npsUrl": "https://www.nps.gov/grba/",
+    "kind": "mountain",
+    "heroPhoto": {
+      "credit": "NPS / Loren Reinhold",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pinus_longaeva_Mt_Washington.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/grba/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "great-sand-dunes",
+    "name": "Great Sand Dunes",
+    "npsCode": "GRSA",
+    "lat": 37.73,
+    "lon": -105.51,
+    "states": [
+      "Colorado"
+    ],
+    "region": "Rocky Mountains",
+    "established": "2004-09-24",
+    "acres": 107345.73,
+    "visitors": 432498,
+    "visitorsYear": 2025,
+    "sizeRank": 39,
+    "visitorRank": 44,
+    "description": "North America's tallest dunes, up to about 750 feet, pile against the Sangre de Cristo Mountains. In late spring, snowmelt-fed Medano Creek flows across their base, and the park climbs from grassland to alpine tundra.",
+    "highlights": [
+      "Star Dune",
+      "Medano Creek",
+      "High Dune",
+      "Zapata Falls"
+    ],
+    "bestSeason": "May–Jun, Sep–Oct",
+    "nearestAirport": "Colorado Springs (COS) · ~2.5 hr drive",
+    "npsUrl": "https://www.nps.gov/grsa/",
+    "kind": "dunes",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Curving_Dune_above_Gold_Cottonwoods_(51582247207).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/grsa/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "great-smoky-mountains",
+    "name": "Great Smoky Mountains",
+    "npsCode": "GRSM",
+    "lat": 35.68,
+    "lon": -83.53,
+    "states": [
+      "North Carolina",
+      "Tennessee"
+    ],
+    "region": "South",
+    "established": "1934-06-15",
+    "acres": 522426.88,
+    "visitors": 11527939,
+    "visitorsYear": 2025,
+    "sizeRank": 19,
+    "visitorRank": 1,
+    "description": "Straddling Tennessee and North Carolina, the Smokies are known for misty ridges, old-growth forest and remarkable biodiversity. Historic log buildings in Cades Cove recall mountain life, and it is America's most-visited national park.",
+    "highlights": [
+      "Clingmans Dome",
+      "Cades Cove",
+      "Alum Cave Trail",
+      "Laurel Falls"
+    ],
+    "bestSeason": "Apr–May, Oct",
+    "nearestAirport": "Knoxville (TYS) · ~1 hr drive",
+    "npsUrl": "https://www.nps.gov/grsm/",
+    "kind": "forest",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Foothills_Parkway,_November_2018--Joye_Ardyn_Durham_(31031302587).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/grsm/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "guadalupe-mountains",
+    "name": "Guadalupe Mountains",
+    "npsCode": "GUMO",
+    "lat": 31.92,
+    "lon": -104.87,
+    "states": [
+      "Texas"
+    ],
+    "region": "Southwest",
+    "established": "1972-09-30",
+    "acres": 86367.1,
+    "visitors": 206423,
+    "visitorsYear": 2025,
+    "sizeRank": 42,
+    "visitorRank": 52,
+    "description": "This park protects part of an ancient fossil reef that now stands as the highest mountains in Texas. Guadalupe Peak tops out at 8,751 feet, and McKittrick Canyon's maples turn brilliant colors each fall.",
+    "highlights": [
+      "Guadalupe Peak",
+      "El Capitan",
+      "McKittrick Canyon",
+      "Devil's Hall"
+    ],
+    "bestSeason": "Mar–Apr, Oct–Nov",
+    "nearestAirport": "El Paso (ELP) · ~1.75 hr drive",
+    "npsUrl": "https://www.nps.gov/gumo/",
+    "kind": "mountain",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guadalupe_Mountains_National_Park_P1012848.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/gumo/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "haleakala",
+    "name": "Haleakalā",
+    "npsCode": "HALE",
+    "lat": 20.72,
+    "lon": -156.17,
+    "states": [
+      "Hawaiʻi"
+    ],
+    "region": "Hawaiʻi & Pacific",
+    "established": "1961-07-01",
+    "acres": 33488.98,
+    "visitors": 853711,
+    "visitorsYear": 2025,
+    "sizeRank": 53,
+    "visitorRank": 27,
+    "description": "Haleakalā's summit sits 10,023 feet above Maui, famed for sunrise above the clouds and rare silverswords in a vast volcanic crater. The park also reaches down to the lush Kīpahulu coast, with bamboo forest and waterfalls.",
+    "highlights": [
+      "Summit sunrise",
+      "Sliding Sands Trail",
+      "Pīpīwai Trail",
+      "ʻOheʻo Gulch"
+    ],
+    "bestSeason": "Year-round",
+    "nearestAirport": "Kahului (OGG) · ~1.5 hr drive",
+    "npsUrl": "https://www.nps.gov/hale/",
+    "kind": "volcano",
+    "heroPhoto": {
+      "credit": "NPS / C. Fukushima",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haleakala_Crater_from_Sliding_Sands.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/hale/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "hawaii-volcanoes",
+    "name": "Hawaiʻi Volcanoes",
+    "npsCode": "HAVO",
+    "lat": 19.38,
+    "lon": -155.2,
+    "states": [
+      "Hawaiʻi"
+    ],
+    "region": "Hawaiʻi & Pacific",
+    "established": "1916-08-01",
+    "acres": 344812.18,
+    "visitors": 1877854,
+    "visitorsYear": 2025,
+    "sizeRank": 23,
+    "visitorRank": 18,
+    "description": "Two of the world's most active volcanoes, Kīlauea and Mauna Loa, shape this park on the Island of Hawaiʻi. Steaming craters, lava tubes and fresh lava flows show new land being made, alongside places sacred to Native Hawaiians.",
+    "highlights": [
+      "Kīlauea caldera",
+      "Chain of Craters Road",
+      "Nāhuku lava tube",
+      "Kīlauea Iki Trail"
+    ],
+    "bestSeason": "Year-round",
+    "nearestAirport": "Hilo (ITO) · ~45 min drive",
+    "npsUrl": "https://www.nps.gov/havo/",
+    "kind": "volcano",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HAVO_20211007_Day_9_Lava_lake_and_fountains_from_east_side_of_Kīlauea_J.Wei_(51563447111).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/havo/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "hot-springs",
+    "name": "Hot Springs",
+    "npsCode": "HOSP",
+    "lat": 34.51,
+    "lon": -93.05,
+    "states": [
+      "Arkansas"
+    ],
+    "region": "South",
+    "established": "1921-03-04",
+    "acres": 5554.15,
+    "visitors": 2494611,
+    "visitorsYear": 2025,
+    "sizeRank": 62,
+    "visitorRank": 14,
+    "description": "The smallest national park protects dozens of thermal springs flowing from the Ouachita Mountains. Bathhouse Row's ornate early-1900s spas line downtown Hot Springs, and visitors can still soak in the 143°F water.",
+    "highlights": [
+      "Bathhouse Row",
+      "Grand Promenade",
+      "Hot Springs Mountain Tower",
+      "Thermal bath soak"
+    ],
+    "bestSeason": "Mar–May, Oct–Nov",
+    "nearestAirport": "Little Rock (LIT) · ~1 hr drive",
+    "npsUrl": "https://www.nps.gov/hosp/",
+    "kind": "geyser",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Administration_building_sits_on_the_southerly_entrance_to_Bathhouse_Row._Behind_it_is_the_Army_Navy_hospital._(2a33d537-286c-4f8d-8684-37125b092211).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/hosp/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "indiana-dunes",
+    "name": "Indiana Dunes",
+    "npsCode": "INDU",
+    "lat": 41.6533,
+    "lon": -87.0524,
+    "states": [
+      "Indiana"
+    ],
+    "region": "Midwest",
+    "established": "2019-02-15",
+    "acres": 15349.08,
+    "visitors": 2629497,
+    "visitorsYear": 2025,
+    "sizeRank": 58,
+    "visitorRank": 13,
+    "description": "Fifteen miles of Lake Michigan shoreline backed by tall sand dunes sit an hour from Chicago. Beyond the beaches, wetlands, prairies and forests make it one of the most plant-diverse parks in the system.",
+    "highlights": [
+      "Mount Baldy",
+      "3 Dune Challenge",
+      "West Beach",
+      "Cowles Bog"
+    ],
+    "bestSeason": "Jun–Sep",
+    "nearestAirport": "Chicago (MDW) · ~1 hr drive",
+    "npsUrl": "https://www.nps.gov/indu/",
+    "kind": "dunes",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indiana_Dunes_National_Lakeshore_INDU0468.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/indu/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "isle-royale",
+    "name": "Isle Royale",
+    "npsCode": "ISRO",
+    "lat": 48.1,
+    "lon": -88.55,
+    "states": [
+      "Michigan"
+    ],
+    "region": "Midwest",
+    "established": "1940-04-03",
+    "acres": 571790.3,
+    "visitors": 29091,
+    "visitorsYear": 2025,
+    "sizeRank": 18,
+    "visitorRank": 60,
+    "description": "A remote island in Lake Superior reached only by boat or seaplane, Isle Royale is a backpacker's wilderness. It is known for the long-running study of its wolves and moose, and it closes entirely in winter.",
+    "highlights": [
+      "Greenstone Ridge",
+      "Rock Harbor",
+      "Scoville Point",
+      "Wolves and moose"
+    ],
+    "bestSeason": "Jul–Sep",
+    "nearestAirport": "Houghton (CMX) · 6 hr ferry",
+    "npsUrl": "https://www.nps.gov/isro/",
+    "kind": "lake",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:National_Park_(44384354501).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/isro/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "joshua-tree",
+    "name": "Joshua Tree",
+    "npsCode": "JOTR",
+    "lat": 33.79,
+    "lon": -115.9,
+    "states": [
+      "California"
+    ],
+    "region": "California & Nevada",
+    "established": "1994-10-31",
+    "acres": 795155.85,
+    "visitors": 2932644,
+    "visitorsYear": 2025,
+    "sizeRank": 15,
+    "visitorRank": 12,
+    "description": "Two deserts, the Mojave and the Colorado, meet in this park of twisted Joshua trees and giant granite boulders. It is a world-class climbing destination, with spring wildflowers and starry night skies.",
+    "highlights": [
+      "Hidden Valley",
+      "Cholla Cactus Garden",
+      "Keys View",
+      "Skull Rock"
+    ],
+    "bestSeason": "Oct–Apr",
+    "nearestAirport": "Palm Springs (PSP) · ~1 hr drive",
+    "npsUrl": "https://www.nps.gov/jotr/",
+    "kind": "desert",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hiker_(37138309846).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/jotr/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "katmai",
+    "name": "Katmai",
+    "npsCode": "KATM",
+    "lat": 58.5,
+    "lon": -155,
+    "states": [
+      "Alaska"
+    ],
+    "region": "Alaska",
+    "established": "1980-12-02",
+    "acres": 3674529.33,
+    "visitors": 34479,
+    "visitorsYear": 2025,
+    "sizeRank": 4,
+    "visitorRank": 59,
+    "description": "Katmai is famous for brown bears catching salmon at Brooks Falls. The 1912 Novarupta eruption, the largest of the 20th century, buried the Valley of Ten Thousand Smokes in ash hundreds of feet deep.",
+    "highlights": [
+      "Brooks Falls bears",
+      "Valley of Ten Thousand Smokes",
+      "Naknek Lake",
+      "Fat Bear Week"
+    ],
+    "bestSeason": "Jul, Sep",
+    "nearestAirport": "Anchorage (ANC) · flight + floatplane",
+    "npsUrl": "https://www.nps.gov/katm/",
+    "kind": "volcano",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swikshak_September_19,_2018_(44949141262).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/katm/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "kenai-fjords",
+    "name": "Kenai Fjords",
+    "npsCode": "KEFJ",
+    "lat": 59.92,
+    "lon": -149.65,
+    "states": [
+      "Alaska"
+    ],
+    "region": "Alaska",
+    "established": "1980-12-02",
+    "acres": 669650.05,
+    "visitors": 425369,
+    "visitorsYear": 2025,
+    "sizeRank": 17,
+    "visitorRank": 45,
+    "description": "Nearly 40 glaciers flow from the Harding Icefield into deep coastal fjords. Exit Glacier is reachable by road from Seward, and boat tours bring puffins, sea lions, orcas and humpback whales into view.",
+    "highlights": [
+      "Exit Glacier",
+      "Harding Icefield Trail",
+      "Aialik Bay boat tour",
+      "Marine wildlife"
+    ],
+    "bestSeason": "Jun–Aug",
+    "nearestAirport": "Anchorage (ANC) · ~2.5 hr drive",
+    "npsUrl": "https://www.nps.gov/kefj/",
+    "kind": "glacier",
+    "heroPhoto": {
+      "credit": "NPS / Victoria Stauffenberg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kenai_Fjords_National_Park_(a4fed04b-e9db-4ee8-8fc3-66290567bcb6).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/kefj/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "kings-canyon",
+    "name": "Kings Canyon",
+    "npsCode": "SEKI",
+    "lat": 36.8,
+    "lon": -118.55,
+    "states": [
+      "California"
+    ],
+    "region": "California & Nevada",
+    "established": "1940-03-04",
+    "acres": 461901.2,
+    "visitors": 779791,
+    "visitorsYear": 2025,
+    "sizeRank": 21,
+    "visitorRank": 30,
+    "description": "Kings Canyon pairs giant sequoia groves with one of the deepest canyons in North America. The General Grant Tree, among the largest on Earth, stands near the entrance, with the glacier-carved canyon beyond.",
+    "highlights": [
+      "General Grant Tree",
+      "Kings Canyon Scenic Byway",
+      "Zumwalt Meadow",
+      "Mist Falls"
+    ],
+    "bestSeason": "Jun–Sep",
+    "nearestAirport": "Fresno (FAT) · ~1.5 hr drive",
+    "npsUrl": "https://www.nps.gov/seki/",
+    "kind": "sequoia",
+    "heroPhoto": {
+      "credit": "NPS / Tom Engberg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_breathtaking_view_from_within_Sequoia_Kings_Canyon_National_Park._(05a4d30e-807b-4579-b5e1-cfe3a037ca1f).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/seki/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "kobuk-valley",
+    "name": "Kobuk Valley",
+    "npsCode": "KOVA",
+    "lat": 67.55,
+    "lon": -159.28,
+    "states": [
+      "Alaska"
+    ],
+    "region": "Alaska",
+    "established": "1980-12-02",
+    "acres": 1750716.16,
+    "visitors": 7786,
+    "visitorsYear": 2025,
+    "sizeRank": 9,
+    "visitorRank": 63,
+    "description": "Above the Arctic Circle, about 25 square miles of golden sand dunes rise beside the Kobuk River. Hundreds of thousands of caribou cross the river each year, a migration people have relied on for millennia.",
+    "highlights": [
+      "Great Kobuk Sand Dunes",
+      "Kobuk River",
+      "Onion Portage",
+      "Caribou migration"
+    ],
+    "bestSeason": "Jun–Aug",
+    "nearestAirport": "Kotzebue (OTZ) · ~1 hr bush plane",
+    "npsUrl": "https://www.nps.gov/kova/",
+    "kind": "dunes",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wetlands_along_the_Kobuk_River_(8029770162).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/kova/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "lake-clark",
+    "name": "Lake Clark",
+    "npsCode": "LACL",
+    "lat": 60.97,
+    "lon": -153.42,
+    "states": [
+      "Alaska"
+    ],
+    "region": "Alaska",
+    "established": "1980-12-02",
+    "acres": 2619816.49,
+    "visitors": 19778,
+    "visitorsYear": 2025,
+    "sizeRank": 7,
+    "visitorRank": 61,
+    "description": "Volcanoes, glaciers, turquoise lakes and salmon-filled rivers come together across Cook Inlet from Anchorage. Reachable only by small plane, it is prime country for watching brown bears along the coast.",
+    "highlights": [
+      "Lake Clark",
+      "Port Alsworth",
+      "Silver Salmon Creek bears",
+      "Redoubt Volcano"
+    ],
+    "bestSeason": "Jun–Sep",
+    "nearestAirport": "Anchorage (ANC) · ~1.5 hr bush plane",
+    "npsUrl": "https://www.nps.gov/lacl/",
+    "kind": "lake",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Telaquana_Mountain_(2960e365-1dd8-b71c-07ef-317e02f53098).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/lacl/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "lassen-volcanic",
+    "name": "Lassen Volcanic",
+    "npsCode": "LAVO",
+    "lat": 40.49,
+    "lon": -121.51,
+    "states": [
+      "California"
+    ],
+    "region": "California & Nevada",
+    "established": "1916-08-09",
+    "acres": 106589.02,
+    "visitors": 504777,
+    "visitorsYear": 2025,
+    "sizeRank": 40,
+    "visitorRank": 40,
+    "description": "All four types of volcano are found here, including Lassen Peak, which erupted from 1914 to 1917. Boiling mudpots, fumaroles and steaming vents at Bumpass Hell show the heat still simmering below.",
+    "highlights": [
+      "Lassen Peak",
+      "Bumpass Hell",
+      "Manzanita Lake",
+      "Cinder Cone"
+    ],
+    "bestSeason": "Jul–Sep",
+    "nearestAirport": "Redding (RDD) · ~1 hr drive",
+    "npsUrl": "https://www.nps.gov/lavo/",
+    "kind": "volcano",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lassen_Peak_and_Lake_Helen.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/lavo/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "mammoth-cave",
+    "name": "Mammoth Cave",
+    "npsCode": "MACA",
+    "lat": 37.18,
+    "lon": -86.1,
+    "states": [
+      "Kentucky"
+    ],
+    "region": "South",
+    "established": "1941-07-01",
+    "acres": 72472.87,
+    "visitors": 660734,
+    "visitorsYear": 2025,
+    "sizeRank": 45,
+    "visitorRank": 34,
+    "description": "Mammoth Cave is the longest known cave system in the world, with more than 400 miles mapped. Ranger-led tours explore vast limestone passages, and the forested hills above offer trails and river paddling.",
+    "highlights": [
+      "Historic Tour",
+      "Domes and Dripstones Tour",
+      "Frozen Niagara",
+      "Green River paddling"
+    ],
+    "bestSeason": "Apr–Oct",
+    "nearestAirport": "Nashville (BNA) · ~1.5 hr drive",
+    "npsUrl": "https://www.nps.gov/maca/",
+    "kind": "cave",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_walkway_and_stairs_inside_Wondering_Woods_Cave._(5f196936-530a-41ef-a93d-d7e0f5d6059f).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/maca/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "mesa-verde",
+    "name": "Mesa Verde",
+    "npsCode": "MEVE",
+    "lat": 37.18,
+    "lon": -108.49,
+    "states": [
+      "Colorado"
+    ],
+    "region": "Rocky Mountains",
+    "established": "1906-06-29",
+    "acres": 52485.17,
+    "visitors": 463130,
+    "visitorsYear": 2025,
+    "sizeRank": 48,
+    "visitorRank": 43,
+    "description": "Ancestral Pueblo people built about 600 cliff dwellings into the canyon walls here between roughly 600 and 1300 CE. Cliff Palace, the largest, can be toured with a ranger, and mesa-top sites trace centuries of village life.",
+    "highlights": [
+      "Cliff Palace",
+      "Balcony House",
+      "Spruce Tree House",
+      "Mesa Top Loop"
+    ],
+    "bestSeason": "May–Oct",
+    "nearestAirport": "Durango (DRO) · ~1 hr drive",
+    "npsUrl": "https://www.nps.gov/meve/",
+    "kind": "canyon",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spruce_Tree_House_brightly_illuminated_(85160a44-1dd8-b71b-0b89-73f4ea885ad2).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/meve/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "mount-rainier",
+    "name": "Mount Rainier",
+    "npsCode": "MORA",
+    "lat": 46.85,
+    "lon": -121.75,
+    "states": [
+      "Washington"
+    ],
+    "region": "Pacific Northwest",
+    "established": "1899-03-02",
+    "acres": 236381.64,
+    "visitors": 1635342,
+    "visitorsYear": 2025,
+    "sizeRank": 30,
+    "visitorRank": 20,
+    "description": "Mount Rainier, an active volcano rising 14,410 feet, is the most glaciated peak in the contiguous U.S. Subalpine wildflower meadows at Paradise and Sunrise ring the mountain above old-growth forest.",
+    "highlights": [
+      "Paradise",
+      "Skyline Trail",
+      "Sunrise",
+      "Grove of the Patriarchs"
+    ],
+    "bestSeason": "Jul–Sep",
+    "nearestAirport": "Seattle (SEA) · ~2 hr drive",
+    "npsUrl": "https://www.nps.gov/mora/",
+    "kind": "volcano",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Rainier_and_lake_reflection.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/mora/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "new-river-gorge",
+    "name": "New River Gorge",
+    "npsCode": "NERI",
+    "lat": 38.07,
+    "lon": -81.08,
+    "states": [
+      "West Virginia"
+    ],
+    "region": "South",
+    "established": "2020-12-27",
+    "acres": 7021,
+    "visitors": 1958440,
+    "visitorsYear": 2025,
+    "sizeRank": 61,
+    "visitorRank": 17,
+    "description": "One of the oldest rivers on the continent runs north through a deep gorge in West Virginia. Long Point and the Endless Wall frame views of the New River Gorge Bridge, and the river offers some of the East's best whitewater.",
+    "highlights": [
+      "New River Gorge Bridge",
+      "Endless Wall Trail",
+      "Whitewater rafting",
+      "Sandstone Falls"
+    ],
+    "bestSeason": "May–Oct",
+    "nearestAirport": "Charleston (CRW) · ~1 hr drive",
+    "npsUrl": "https://www.nps.gov/neri/",
+    "kind": "waterfall",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_River_Gorge_National_Park_and_Preserve,_West_Virginia_(3b078670-06fd-4464-a170-ed2621c93fb9).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/neri/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "north-cascades",
+    "name": "North Cascades",
+    "npsCode": "NOCA",
+    "lat": 48.7,
+    "lon": -121.2,
+    "states": [
+      "Washington"
+    ],
+    "region": "Pacific Northwest",
+    "established": "1968-10-02",
+    "acres": 504780.94,
+    "visitors": 46925,
+    "visitorsYear": 2025,
+    "sizeRank": 20,
+    "visitorRank": 57,
+    "description": "Jagged peaks, hundreds of glaciers and turquoise lakes earn the North Cascades the nickname American Alps. Highway 20 passes Diablo Lake, while most of the park is roadless wilderness reached by trail or boat.",
+    "highlights": [
+      "Diablo Lake",
+      "Cascade Pass",
+      "Ross Lake",
+      "Stehekin"
+    ],
+    "bestSeason": "Jul–Sep",
+    "nearestAirport": "Seattle (SEA) · ~2.5 hr drive",
+    "npsUrl": "https://www.nps.gov/noca/",
+    "kind": "mountain",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_Cascades_Defoliation_-_2003_(5d6733de-5878-407f-93f7-c28b8b162600).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/noca/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "olympic",
+    "name": "Olympic",
+    "npsCode": "OLYM",
+    "lat": 47.97,
+    "lon": -123.5,
+    "states": [
+      "Washington"
+    ],
+    "region": "Pacific Northwest",
+    "established": "1938-06-29",
+    "acres": 922649.41,
+    "visitors": 3584187,
+    "visitorsYear": 2025,
+    "sizeRank": 13,
+    "visitorRank": 9,
+    "description": "Olympic protects three distinct worlds: glacier-capped mountains, temperate rainforest and a wild Pacific coast. Moss-draped giants in the Hoh Rain Forest contrast with sea stacks and tidepools on the beaches.",
+    "highlights": [
+      "Hoh Rain Forest",
+      "Hurricane Ridge",
+      "Ruby Beach",
+      "Lake Crescent"
+    ],
+    "bestSeason": "Jul–Sep",
+    "nearestAirport": "Seattle (SEA) · ~2.5 hr drive",
+    "npsUrl": "https://www.nps.gov/olym/",
+    "kind": "forest",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountain_reflection_LaCrosse_Basin_NPS_Photo_(17032189079).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/olym/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "petrified-forest",
+    "name": "Petrified Forest",
+    "npsCode": "PEFO",
+    "lat": 35.07,
+    "lon": -109.78,
+    "states": [
+      "Arizona"
+    ],
+    "region": "Southwest",
+    "established": "1962-12-09",
+    "acres": 221390.21,
+    "visitors": 315951,
+    "visitorsYear": 2025,
+    "sizeRank": 31,
+    "visitorRank": 48,
+    "description": "Logs from forests that grew over 200 million years ago have turned to colorful quartz across this high desert. The park also spans the banded Painted Desert, ancient petroglyphs and a stretch of old Route 66.",
+    "highlights": [
+      "Blue Mesa",
+      "Crystal Forest",
+      "Painted Desert",
+      "Newspaper Rock"
+    ],
+    "bestSeason": "Mar–May, Sep–Oct",
+    "nearestAirport": "Albuquerque (ABQ) · ~3.5 hr drive",
+    "npsUrl": "https://www.nps.gov/pefo/",
+    "kind": "desert",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petrified_Forest_National_Park_PEFO2102.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/pefo/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "pinnacles",
+    "name": "Pinnacles",
+    "npsCode": "PINN",
+    "lat": 36.48,
+    "lon": -121.16,
+    "states": [
+      "California"
+    ],
+    "region": "California & Nevada",
+    "established": "2013-01-10",
+    "acres": 26685.73,
+    "visitors": 343208,
+    "visitorsYear": 2025,
+    "sizeRank": 57,
+    "visitorRank": 47,
+    "description": "Pinnacles is the eroded remains of an ancient volcano that has slid about 200 miles along the San Andreas Fault. Talus caves and rock spires shelter bats, and endangered California condors soar overhead.",
+    "highlights": [
+      "High Peaks Trail",
+      "Bear Gulch Cave",
+      "Balconies Cave",
+      "California condors"
+    ],
+    "bestSeason": "Feb–May",
+    "nearestAirport": "San Jose (SJC) · ~1.5 hr drive",
+    "npsUrl": "https://www.nps.gov/pinn/",
+    "kind": "hoodoo",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Views_at_Pinnacles_National_Monument,_California_(57482d94-63ad-42a3-9294-be0e65391591).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/pinn/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "redwood",
+    "name": "Redwood",
+    "npsCode": "REDW",
+    "lat": 41.3,
+    "lon": -124,
+    "states": [
+      "California"
+    ],
+    "region": "California & Nevada",
+    "established": "1968-10-02",
+    "acres": 138999.37,
+    "visitors": 1202480,
+    "visitorsYear": 2025,
+    "sizeRank": 38,
+    "visitorRank": 25,
+    "description": "Redwood National and State Parks protect nearly half of the remaining old-growth coast redwoods, the tallest trees on Earth. Fern-lined canyons, prairies with Roosevelt elk and wild coastline complete the park.",
+    "highlights": [
+      "Tall Trees Grove",
+      "Fern Canyon",
+      "Lady Bird Johnson Grove",
+      "Elk Prairie"
+    ],
+    "bestSeason": "May–Oct",
+    "nearestAirport": "Arcata–Eureka (ACV) · ~45 min drive",
+    "npsUrl": "https://www.nps.gov/redw/",
+    "kind": "sequoia",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Redwood_National_Park_REDW9339.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/redw/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "rocky-mountain",
+    "name": "Rocky Mountain",
+    "npsCode": "ROMO",
+    "lat": 40.4,
+    "lon": -105.58,
+    "states": [
+      "Colorado"
+    ],
+    "region": "Rocky Mountains",
+    "established": "1915-01-26",
+    "acres": 265847.74,
+    "visitors": 4171431,
+    "visitorsYear": 2025,
+    "sizeRank": 26,
+    "visitorRank": 6,
+    "description": "Trail Ridge Road climbs above 12,000 feet across the Continental Divide through alpine tundra. Dozens of high peaks, glacial lakes and herds of elk make this one of the most visited parks in the country.",
+    "highlights": [
+      "Trail Ridge Road",
+      "Bear Lake & Dream Lake",
+      "Sky Pond",
+      "Elk in Moraine Park"
+    ],
+    "bestSeason": "Jun–Sep",
+    "nearestAirport": "Denver (DEN) · ~1.75 hr drive",
+    "npsUrl": "https://www.nps.gov/romo/",
+    "kind": "mountain",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hallett_Peak_reflected_in_Dream_Lake_(035b3918-1dd8-b71b-0b25-1c76a4dc59e2).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/romo/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "saguaro",
+    "name": "Saguaro",
+    "npsCode": "SAGU",
+    "lat": 32.25,
+    "lon": -110.5,
+    "states": [
+      "Arizona"
+    ],
+    "region": "Southwest",
+    "established": "1994-10-14",
+    "acres": 92876.75,
+    "visitors": 847749,
+    "visitorsYear": 2025,
+    "sizeRank": 41,
+    "visitorRank": 28,
+    "description": "On both sides of Tucson, this park protects forests of giant saguaro cactus, the symbol of the American Southwest. Saguaros can grow over 40 feet tall and live for more than 150 years.",
+    "highlights": [
+      "Cactus Forest Loop Drive",
+      "Signal Hill petroglyphs",
+      "Valley View Overlook",
+      "Wasson Peak"
+    ],
+    "bestSeason": "Oct–Apr",
+    "nearestAirport": "Tucson (TUS) · ~30 min drive",
+    "npsUrl": "https://www.nps.gov/sagu/",
+    "kind": "desert",
+    "heroPhoto": {
+      "credit": "NPS / Todd M. Edgar",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saguaro_cactus_forest.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/sagu/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "sequoia",
+    "name": "Sequoia",
+    "npsCode": "SEKI",
+    "lat": 36.43,
+    "lon": -118.68,
+    "states": [
+      "California"
+    ],
+    "region": "California & Nevada",
+    "established": "1890-09-25",
+    "acres": 404062.63,
+    "visitors": 1378337,
+    "visitorsYear": 2025,
+    "sizeRank": 22,
+    "visitorRank": 23,
+    "description": "Sequoia is home to the General Sherman Tree, the largest tree on Earth by volume. Giant sequoia groves give way to the high Sierra, including Mount Whitney, the highest point in the lower 48 states.",
+    "highlights": [
+      "General Sherman Tree",
+      "Moro Rock",
+      "Congress Trail",
+      "Crystal Cave"
+    ],
+    "bestSeason": "Jun–Sep",
+    "nearestAirport": "Fresno (FAT) · ~2 hr drive",
+    "npsUrl": "https://www.nps.gov/seki/",
+    "kind": "sequoia",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_group_of_five_large_sequoias_near_Sunset_Rock_in_the_Giant_Forest_sequoia_grove._(fdb61f37-f973-4efe-b2ba-18aa9957dba8).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/seki/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "shenandoah",
+    "name": "Shenandoah",
+    "npsCode": "SHEN",
+    "lat": 38.53,
+    "lon": -78.35,
+    "states": [
+      "Virginia"
+    ],
+    "region": "South",
+    "established": "1935-12-26",
+    "acres": 200445.92,
+    "visitors": 1682152,
+    "visitorsYear": 2025,
+    "sizeRank": 33,
+    "visitorRank": 19,
+    "description": "Skyline Drive runs 105 miles along the crest of the Blue Ridge, with sweeping views over the Shenandoah Valley. Waterfalls, hardwood forests and a long stretch of the Appalachian Trail fill this Virginia park.",
+    "highlights": [
+      "Skyline Drive",
+      "Old Rag Mountain",
+      "Dark Hollow Falls",
+      "Stony Man"
+    ],
+    "bestSeason": "May, Oct",
+    "nearestAirport": "Washington Dulles (IAD) · ~1.25 hr drive",
+    "npsUrl": "https://www.nps.gov/shen/",
+    "kind": "forest",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Early_Fall_at_Dark_Hollow_Falls_(22028259442).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/shen/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "theodore-roosevelt",
+    "name": "Theodore Roosevelt",
+    "npsCode": "THRO",
+    "lat": 46.97,
+    "lon": -103.45,
+    "states": [
+      "North Dakota"
+    ],
+    "region": "Great Plains",
+    "established": "1978-11-10",
+    "acres": 70446.89,
+    "visitors": 729893,
+    "visitorsYear": 2025,
+    "sizeRank": 46,
+    "visitorRank": 33,
+    "description": "The colorful badlands of western North Dakota shaped Theodore Roosevelt's commitment to conservation. Bison, wild horses and prairie dogs roam the grasslands along the Little Missouri River.",
+    "highlights": [
+      "Scenic Loop Drive",
+      "Painted Canyon",
+      "Wind Canyon",
+      "Elkhorn Ranch"
+    ],
+    "bestSeason": "May–Sep",
+    "nearestAirport": "Bismarck (BIS) · ~2 hr drive",
+    "npsUrl": "https://www.nps.gov/thro/",
+    "kind": "hoodoo",
+    "heroPhoto": {
+      "credit": "NPS / Mark Hoffman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Theodore_Roosevelt_National_Park.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/thro/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "virgin-islands",
+    "name": "Virgin Islands",
+    "npsCode": "VIIS",
+    "lat": 18.33,
+    "lon": -64.73,
+    "states": [
+      "U.S. Virgin Islands"
+    ],
+    "region": "Caribbean",
+    "established": "1956-08-02",
+    "acres": 15052.33,
+    "visitors": 471074,
+    "visitorsYear": 2025,
+    "sizeRank": 59,
+    "visitorRank": 42,
+    "description": "Covering most of St. John, the park protects white-sand beaches, coral reefs and tropical forest. Sugar plantation ruins and ancient Taíno petroglyphs tell the island's long human story.",
+    "highlights": [
+      "Trunk Bay snorkel trail",
+      "Reef Bay Trail petroglyphs",
+      "Annaberg Sugar Mill",
+      "Cinnamon Bay"
+    ],
+    "bestSeason": "Dec–Apr",
+    "nearestAirport": "St. Thomas (STT) · taxi + ferry",
+    "npsUrl": "https://www.nps.gov/viis/",
+    "kind": "island",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virgin_Islands_National_Park.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/viis/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "voyageurs",
+    "name": "Voyageurs",
+    "npsCode": "VOYA",
+    "lat": 48.5,
+    "lon": -92.88,
+    "states": [
+      "Minnesota"
+    ],
+    "region": "Midwest",
+    "established": "1975-04-08",
+    "acres": 218222.35,
+    "visitors": 206326,
+    "visitorsYear": 2025,
+    "sizeRank": 32,
+    "visitorRank": 53,
+    "description": "Voyageurs is a park of water: four large lakes and hundreds of islands along the Canadian border. Explore by boat or canoe along the routes of French-Canadian fur traders, then watch the sky for the northern lights.",
+    "highlights": [
+      "Kabetogama Lake",
+      "Kettle Falls Hotel",
+      "Northern lights",
+      "Ellsworth Rock Gardens"
+    ],
+    "bestSeason": "Jun–Sep",
+    "nearestAirport": "International Falls (INL) · ~20 min drive",
+    "npsUrl": "https://www.nps.gov/voya/",
+    "kind": "lake",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:R9_-_Diamond_Island_North_view_of_boat_access_from_water._(f35dcdd9-4b64-4cfe-b2c8-2d5ca43b782a).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/voya/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "white-sands",
+    "name": "White Sands",
+    "npsCode": "WHSA",
+    "lat": 32.78,
+    "lon": -106.17,
+    "states": [
+      "New Mexico"
+    ],
+    "region": "Southwest",
+    "established": "2019-12-20",
+    "acres": 146344.31,
+    "visitors": 659742,
+    "visitorsYear": 2025,
+    "sizeRank": 37,
+    "visitorRank": 35,
+    "description": "The world's largest gypsum dunefield covers 275 square miles of the Tularosa Basin in brilliant white sand. Visitors hike, sled and camp among wave-like dunes that glow at sunset.",
+    "highlights": [
+      "Dunes Drive",
+      "Alkali Flat Trail",
+      "Interdune Boardwalk",
+      "Sunset stroll"
+    ],
+    "bestSeason": "Mar–May, Sep–Nov",
+    "nearestAirport": "El Paso (ELP) · ~1.5 hr drive",
+    "npsUrl": "https://www.nps.gov/whsa/",
+    "kind": "dunes",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fiery_Sunset_(fc23769a-155d-451f-6730-d0c4f7a8fd04).JPG"
+    },
+    "sources": [
+      "https://www.nps.gov/whsa/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "wind-cave",
+    "name": "Wind Cave",
+    "npsCode": "WICA",
+    "lat": 43.57,
+    "lon": -103.48,
+    "states": [
+      "South Dakota"
+    ],
+    "region": "Great Plains",
+    "established": "1903-01-09",
+    "acres": 33970.84,
+    "visitors": 606258,
+    "visitorsYear": 2025,
+    "sizeRank": 52,
+    "visitorRank": 37,
+    "description": "One of the longest caves in the world lies beneath this Black Hills prairie, famous for rare honeycomb-like boxwork. Above ground, bison, elk and prairie dogs graze a surviving stretch of mixed-grass prairie.",
+    "highlights": [
+      "Boxwork formations",
+      "Natural Entrance Tour",
+      "Rankin Ridge",
+      "Bison on the prairie"
+    ],
+    "bestSeason": "May–Sep",
+    "nearestAirport": "Rapid City (RAP) · ~1.25 hr drive",
+    "npsUrl": "https://www.nps.gov/wica/",
+    "kind": "cave",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skyway_Lake,_stalactites,_Wind_Cave.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/wica/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "wrangell-st-elias",
+    "name": "Wrangell–St. Elias",
+    "npsCode": "WRST",
+    "lat": 61,
+    "lon": -142,
+    "states": [
+      "Alaska"
+    ],
+    "region": "Alaska",
+    "established": "1980-12-02",
+    "acres": 8323146.48,
+    "visitors": 108840,
+    "visitorsYear": 2025,
+    "sizeRank": 1,
+    "visitorRank": 55,
+    "description": "The largest U.S. national park is bigger than Switzerland and holds 9 of the country's 16 highest peaks. Huge glaciers spread between four mountain ranges, and the historic Kennecott copper mill sits beside the Root Glacier.",
+    "highlights": [
+      "Kennecott Mines",
+      "Root Glacier",
+      "McCarthy Road",
+      "Mount St. Elias"
+    ],
+    "bestSeason": "Jun–Aug",
+    "nearestAirport": "Anchorage (ANC) · ~5 hr drive",
+    "npsUrl": "https://www.nps.gov/wrst/",
+    "kind": "glacier",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guyot_Hills,_Icy_Bay,_and_Mount_St._Elias_(21601563492).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/wrst/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "yellowstone",
+    "name": "Yellowstone",
+    "npsCode": "YELL",
+    "lat": 44.6,
+    "lon": -110.5,
+    "states": [
+      "Wyoming",
+      "Montana",
+      "Idaho"
+    ],
+    "region": "Rocky Mountains",
+    "established": "1872-03-01",
+    "acres": 2219790.71,
+    "visitors": 4762988,
+    "visitorsYear": 2025,
+    "sizeRank": 8,
+    "visitorRank": 3,
+    "description": "The world's first national park sits atop a supervolcano and holds about half of Earth's geysers, including Old Faithful. Rainbow hot springs, a dramatic canyon and herds of bison, elk and wolves fill its high plateaus.",
+    "highlights": [
+      "Old Faithful",
+      "Grand Prismatic Spring",
+      "Grand Canyon of the Yellowstone",
+      "Lamar Valley"
+    ],
+    "bestSeason": "May–Sep",
+    "nearestAirport": "Bozeman (BZN) · ~1.5 hr drive",
+    "npsUrl": "https://www.nps.gov/yell/",
+    "kind": "geyser",
+    "heroPhoto": {
+      "credit": "NPS / Jacob W. Frank",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flood_Geyser_Erupts_along_the_Firehole_River_(05960e17-ee5a-4dab-9f51-5c81161e1d28).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/yell/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "yosemite",
+    "name": "Yosemite",
+    "npsCode": "YOSE",
+    "lat": 37.83,
+    "lon": -119.5,
+    "states": [
+      "California"
+    ],
+    "region": "California & Nevada",
+    "established": "1890-10-01",
+    "acres": 761747.5,
+    "visitors": 4278413,
+    "visitorsYear": 2025,
+    "sizeRank": 16,
+    "visitorRank": 5,
+    "description": "Granite icons like El Capitan and Half Dome tower over Yosemite Valley, where some of North America's highest waterfalls thunder in spring. Giant sequoias and high alpine meadows lie beyond the valley.",
+    "highlights": [
+      "Yosemite Valley",
+      "Half Dome",
+      "Glacier Point",
+      "Mariposa Grove"
+    ],
+    "bestSeason": "May–Jun, Sep–Oct",
+    "nearestAirport": "Fresno (FAT) · ~1.5 hr drive",
+    "npsUrl": "https://www.nps.gov/yose/",
+    "kind": "waterfall",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Half_dome_at_sunset_in_Yosemite_National_Park._NPS-Damon_Joyce_(18657742316).jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/yose/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  },
+  {
+    "id": "zion",
+    "name": "Zion",
+    "npsCode": "ZION",
+    "lat": 37.3,
+    "lon": -113.05,
+    "states": [
+      "Utah"
+    ],
+    "region": "Southwest",
+    "established": "1919-11-19",
+    "acres": 147242.66,
+    "visitors": 4984525,
+    "visitorsYear": 2025,
+    "sizeRank": 36,
+    "visitorRank": 2,
+    "description": "Utah's first national park, Zion is a canyon of towering cream, pink and red sandstone cut by the Virgin River. Hikers wade upstream through the Narrows or climb the chain-lined spine of Angels Landing.",
+    "highlights": [
+      "Angels Landing",
+      "The Narrows",
+      "Emerald Pools",
+      "Canyon Overlook Trail"
+    ],
+    "bestSeason": "Apr–May, Sep–Oct",
+    "nearestAirport": "Las Vegas (LAS) · ~2.5 hr drive",
+    "npsUrl": "https://www.nps.gov/zion/",
+    "kind": "canyon",
+    "heroPhoto": {
+      "credit": "NPS",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zion_National_Park_ZION3108.jpg"
+    },
+    "sources": [
+      "https://www.nps.gov/zion/",
+      "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States"
+    ]
+  }
+]
