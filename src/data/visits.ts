@@ -18,6 +18,12 @@ export const visits: Visit[] = [
     photos: ["bryce-canyon-1.jpg", "bryce-canyon-2.jpg", "bryce-canyon-3.jpg", "bryce-canyon-4.jpg"],
   },
   {
+    park: "bryce-canyon",
+    start: "2009-06-19",
+    end: "2009-06-21",
+    with: ["Garrett Manhal", "Matt Graf", "Sophie Ryan"],
+  },
+  {
     park: "carlsbad-caverns",
     start: "2024-03-17",
     with: ["Robert Slaughter"],
@@ -148,7 +154,7 @@ export const visits: Visit[] = [
     with: ["Robert Slaughter"],
     photos: ["white-sands-1.jpg", "white-sands-2.jpg", "white-sands-3.jpg", "white-sands-4.jpg"],
   },
-  { park: "yellowstone" },
+  { park: "yellowstone", start: "2009-07-17", end: "2009-07-19" },
   {
     park: "yosemite",
     start: "2019-08-18",
@@ -160,6 +166,7 @@ export const visits: Visit[] = [
     park: "zion",
     start: "2009-06-19",
     end: "2009-06-21",
+    with: ["Garrett Manhal", "Matt Graf", "Sophie Ryan"],
     photos: ["zion-1.jpg", "zion-2.jpg", "zion-3.jpg", "zion-4.jpg", "zion-5.jpg"],
   },
 ];
