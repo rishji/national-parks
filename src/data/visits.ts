@@ -156,5 +156,10 @@ export const visits: Visit[] = [
     with: ["Neeharika Bhartiya", "Vick Manocha", "Sheel Mohnot", "Amrit Dhir", "Neeraj Hablani"],
     photos: ["yosemite-1.jpg", "yosemite-2.jpg", "yosemite-3.jpg", "yosemite-4.jpg", "yosemite-5.jpg"],
   },
-  { park: "zion" },
+  {
+    park: "zion",
+    start: "2009-06-19",
+    end: "2009-06-21",
+    photos: ["zion-1.jpg", "zion-2.jpg", "zion-3.jpg", "zion-4.jpg", "zion-5.jpg"],
+  },
 ];
