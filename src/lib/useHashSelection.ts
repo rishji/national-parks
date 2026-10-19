@@ -2,7 +2,12 @@ import { useCallback, useEffect, useState } from "react";
 
 export function useHashSelection(valid: Set<string>): [string | null, (id: string | null) => void] {
   const read = useCallback(() => {
-    const h = decodeURIComponent(window.location.hash.slice(1));
+    let h: string;
+    try {
+      h = decodeURIComponent(window.location.hash.slice(1));
+    } catch {
+      return null; // malformed percent-encoding: treat like any unknown hash
+    }
     return valid.has(h) ? h : null;
   }, [valid]);
   const [id, setId] = useState<string | null>(read);

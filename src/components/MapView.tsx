@@ -11,6 +11,9 @@ import { matchesFilter, type Filter } from "../lib/stats";
 import { ParkArt } from "./ParkArt";
 import "../styles/map.css";
 
+// .tag is 700 10.5px Figtree with 6px side padding and 1.5px borders; ~6.4px per character is a safe upper bound.
+const tagWidth = (name: string) => Math.ceil(name.length * 6.4 + 15);
+
 interface Props {
   parks: Park[]; visited: Set<string>; filter: Filter; selectedId: string | null;
   onSelect: (id: string) => void; hoveredId: string | null; onHover: (id: string | null) => void;
@@ -22,13 +25,12 @@ export function MapView({ parks, visited, filter, selectedId, onSelect, hoveredI
   const zoomRef = useRef<ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const [width, setWidth] = useState(1216);
   const [t, setT] = useState<ZoomTransform>(zoomIdentity);
+  const [moving, setMoving] = useState(false); // during a gesture badges track the map 1:1, no easing
   const s = width / MAP_W;
   const height = MAP_H * s;
   const small = width < 640;
   const r = small ? 10 : 17;
-  // Desktop shows name tags under visited badges: leave room for them between badges and above the bottom edge.
-  const gap = small ? 4 : 20;
-  const tagRoom = small ? 0 : 22;
+  const gap = small ? 4 : 6;
 
   useLayoutEffect(() => {
     const el = wrapRef.current!;
@@ -44,7 +46,9 @@ export function MapView({ parks, visited, filter, selectedId, onSelect, hoveredI
     const z = zoom<SVGSVGElement, unknown>()
       .scaleExtent([1, 8])
       .translateExtent([[0, 0], [MAP_W, MAP_H]])
-      .on("zoom", (e) => setT(e.transform));
+      .on("start", () => setMoving(true))
+      .on("zoom", (e) => setT(e.transform))
+      .on("end", () => setMoving(false));
     svg.call(z);
     zoomRef.current = z;
     return () => { svg.on(".zoom", null); };
@@ -54,11 +58,13 @@ export function MapView({ parks, visited, filter, selectedId, onSelect, hoveredI
     const items = parks
       .map((p) => {
         const [x, y] = t.apply(anchors.get(p.id)!);
-        return { id: p.id, ax: x * s, ay: y * s };
+        // Visited badges carry an always-on name tag on wider maps; the layout keeps it clear of other badges.
+        const tagW = !small && visited.has(p.id) ? tagWidth(p.name) : undefined;
+        return { id: p.id, ax: x * s, ay: y * s, tagW };
       })
       .filter((a) => a.ax >= 0 && a.ax <= width && a.ay >= 0 && a.ay <= height);
-    return layoutBadges(items, { r, gap, width, height: height - tagRoom });
-  }, [parks, t, s, width, height, r, gap, tagRoom]);
+    return layoutBadges(items, { r, gap, width, height });
+  }, [parks, visited, small, t, s, width, height, r, gap]);
 
   const byId = useMemo(() => new Map(parks.map((p) => [p.id, p])), [parks]);
   const zoomBy = (k: number) => zoomRef.current && select(svgRef.current!).transition().duration(300).call(zoomRef.current.scaleBy, k);
@@ -67,7 +73,7 @@ export function MapView({ parks, visited, filter, selectedId, onSelect, hoveredI
 
   return (
     <div className="map-frame">
-      <div ref={wrapRef} className="map-wrap" style={{ height }}>
+      <div ref={wrapRef} className={`map-wrap ${small ? "small" : ""}`} style={{ height }}>
         <svg ref={svgRef} className="map-svg" viewBox={`0 0 ${MAP_W} ${MAP_H}`} role="presentation">
           <defs>
             <pattern id="waves" width="28" height="14" patternUnits="userSpaceOnUse">
@@ -121,11 +127,11 @@ export function MapView({ parks, visited, filter, selectedId, onSelect, hoveredI
           ))}
         </svg>
 
-        <div className="badges">
+        <div className={`badges ${moving ? "moving" : ""}`}>
           {placed.map((p, i) => {
             const park = byId.get(p.id)!;
             const v = visited.has(p.id);
-            const cls = ["badge", v && "v", !matchesFilter(p.id, visited, filter) && "dim", active([p.id]) && "sel"].filter(Boolean).join(" ");
+            const cls = ["badge", v && "v", p.tagHidden && "tag-hide", !matchesFilter(p.id, visited, filter) && "dim", active([p.id]) && "sel"].filter(Boolean).join(" ");
             return (
               <button key={p.id} type="button" className={cls} aria-label={`${park.name}, ${v ? "visited" : "not yet visited"}`}
                 style={{ left: p.x, top: p.y, width: r * 2, height: r * 2, animationDelay: `${i * 12}ms` }}

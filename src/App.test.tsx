@@ -60,3 +60,21 @@ test("next/prev in the panel steps alphabetically", async () => {
   await userEvent.click(screen.getByRole("button", { name: "Next park" }));
   expect(screen.getByRole("complementary", { name: "Acadia details" })).toBeInTheDocument();
 });
+
+test("a malformed hash (bad percent-encoding) is ignored instead of crashing", () => {
+  history.replaceState(null, "", "/#50%");
+  render(<App />);
+  expect(screen.getByRole("heading", { level: 1 })).toBeInTheDocument();
+  expect(screen.queryByRole("complementary")).not.toBeInTheDocument();
+});
+
+test("badges stop easing their position while the map is being zoomed or panned", () => {
+  const { container } = render(<App />);
+  const svg = container.querySelector(".map-svg")!;
+  const badges = container.querySelector(".badges")!;
+  expect(badges).not.toHaveClass("moving");
+  act(() => {
+    svg.dispatchEvent(new WheelEvent("wheel", { deltaY: -100, clientX: 300, clientY: 200, bubbles: true, cancelable: true }));
+  });
+  expect(badges).toHaveClass("moving");
+});

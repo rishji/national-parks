@@ -1,6 +1,8 @@
 import { anchors } from "./geo";
 import { MAP_H, MAP_W } from "./projection";
-import { layoutBadges, segmentsCross, type Anchor, type LayoutOpts, type Placed } from "./callouts";
+import { layoutBadges, segmentsCross, tagBox, type Anchor, type LayoutOpts, type Placed } from "./callouts";
+import parksJson from "../data/parks.json";
+import { visits } from "../data/visits";
 
 function assertClean(placed: Placed[], o: LayoutOpts) {
   for (let i = 0; i < placed.length; i++) {
@@ -80,8 +82,45 @@ test("zoomed in: only in-frame anchors are laid out and fewer need leaders", () 
   expect(placed.filter((p) => p.leader).length).toBeLessThan(base);
 });
 
-test("desktop options with room for name tags (gap 20, bottom inset 22) still lay out cleanly", () => {
+type Box = [number, number, number, number];
+const boxesOverlap = (a: Box, b: Box) => a[0] < b[2] - 0.01 && b[0] < a[2] - 0.01 && a[1] < b[3] - 0.01 && b[1] < a[3] - 0.01;
+const circleBox = (p: Placed, r: number): Box => [p.x - r, p.y - r, p.x + r, p.y + r];
+
+function assertTagsClean(placed: Placed[], o: LayoutOpts) {
+  assertClean(placed, o);
+  for (const p of placed) {
+    const t = tagBox(p, o);
+    if (!t) continue;
+    expect(t[0], `${p.id} tag off left`).toBeGreaterThanOrEqual(-0.01);
+    expect(t[2], `${p.id} tag off right`).toBeLessThanOrEqual(o.width + 0.01);
+    expect(t[3], `${p.id} tag off bottom`).toBeLessThanOrEqual(o.height + 0.01);
+    for (const q of placed) {
+      if (q === p) continue;
+      expect(boxesOverlap(t, circleBox(q, o.r)), `${p.id} tag covers ${q.id}`).toBe(false);
+      const u = tagBox(q, o);
+      if (u) expect(boxesOverlap(t, u), `${p.id} tag overlaps ${q.id} tag`).toBe(false);
+    }
+  }
+}
+
+const tagW = (name: string) => Math.ceil(name.length * 6.4 + 15);
+const names = new Map(parksJson.map((p) => [p.id, p.name]));
+
+function taggedLayout(visited: Set<string>) {
   const { items, o } = realAnchors(1216);
-  const opts = { ...o, r: 17, gap: 20, height: o.height - 22 };
-  assertClean(layoutBadges(items, opts), opts);
+  const opts = { ...o, r: 17, gap: 6 };
+  const tagged = items.map((a) => (visited.has(a.id) ? { ...a, tagW: tagW(names.get(a.id)!) } : a));
+  return { placed: layoutBadges(tagged, opts), opts };
+}
+
+test("with today's visits every name tag is shown, inside the frame and clear of badges and tags", () => {
+  const { placed, opts } = taggedLayout(new Set(visits.map((v) => v.park)));
+  expect(placed.filter((p) => p.tagHidden).map((p) => p.id)).toEqual([]);
+  assertTagsClean(placed, opts);
+});
+
+test("with every park visited, tags that can't fit become hover-only; the rest stay clean", () => {
+  const { placed, opts } = taggedLayout(new Set(parksJson.map((p) => p.id)));
+  assertTagsClean(placed, opts);
+  expect(placed.filter((p) => !p.tagHidden).length).toBeGreaterThanOrEqual(Math.ceil(63 * 0.75));
 });
