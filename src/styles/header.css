@@ -1,0 +1,23 @@
+.hdr { position: relative; overflow: hidden; color: var(--paper);
+  background: linear-gradient(180deg, #2e2350 0%, var(--dusk) 34%, #d9677a 64%, var(--sunset) 84%, var(--gold) 100%); }
+.hdr-inner { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; padding: 40px 32px 150px;
+  display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 32px; }
+.hdr-title { flex: 1 1 420px; display: flex; flex-direction: column; gap: 10px; }
+.hdr-kicker { font: 700 13px/1 var(--font-body); letter-spacing: .22em; text-transform: uppercase; color: var(--gold); }
+.hdr h1 { font: 700 clamp(40px, 6vw, 64px)/1 var(--font-display); }
+.hdr-title p { margin: 6px 0 0; font-size: 18px; line-height: 1.5; max-width: 520px; color: #fbe9da; }
+.hdr-progress { flex: 0 1 460px; display: flex; flex-direction: column; gap: 14px; }
+.hdr-count { display: flex; align-items: baseline; gap: 10px; }
+.hdr-num { font: 700 clamp(80px, 10vw, 112px)/.85 var(--font-display); text-shadow: 4px 4px 0 var(--ink); }
+.hdr-of { font: 600 clamp(28px, 3vw, 40px)/1 var(--font-display); color: #fbe9da; }
+.trail { position: relative; height: 26px; }
+.trail-path { position: absolute; inset: 11px 0 auto; border-top: 3px dashed rgba(246, 238, 220, .55); }
+.trail-done { position: absolute; left: 0; top: 9px; height: 7px; border-radius: 4px; background: var(--gold); box-shadow: 0 0 0 1.5px var(--ink); }
+.trail-hiker { position: absolute; top: 0; }
+.trail-flag { position: absolute; right: -4px; top: -6px; }
+.hdr-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 4px 0 0; }
+.hdr-stats div { display: flex; flex-direction: column-reverse; gap: 4px; }
+.hdr-stats dt { font-size: 13px; color: #fbe9da; }
+.hdr-stats dd { margin: 0; font: 700 26px/1 var(--font-display); }
+.hdr-stats small { font-size: 16px; color: #fbe9da; }
+.hdr-ridges { position: absolute; left: 0; bottom: -1px; width: 100%; height: 160px; display: block; }
