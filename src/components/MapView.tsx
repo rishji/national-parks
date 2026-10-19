@@ -131,7 +131,7 @@ export function MapView({ parks, visited, filter, selectedId, onSelect, hoveredI
           {placed.map((p, i) => {
             const park = byId.get(p.id)!;
             const v = visited.has(p.id);
-            const cls = ["badge", v && "v", p.tagHidden && "tag-hide", !matchesFilter(p.id, visited, filter) && "dim", active([p.id]) && "sel"].filter(Boolean).join(" ");
+            const cls = ["badge", v && "v", p.tagHidden && "tag-hide", p.tagPos && p.tagPos !== "below" && `tag-${p.tagPos}`, !matchesFilter(p.id, visited, filter) && "dim", active([p.id]) && "sel"].filter(Boolean).join(" ");
             return (
               <button key={p.id} type="button" className={cls} aria-label={`${park.name}, ${v ? "visited" : "not yet visited"}`}
                 style={{ left: p.x, top: p.y, width: r * 2, height: r * 2, animationDelay: `${i * 12}ms` }}

@@ -92,6 +92,7 @@ function assertTagsClean(placed: Placed[], o: LayoutOpts) {
     const t = tagBox(p, o);
     if (!t) continue;
     expect(t[0], `${p.id} tag off left`).toBeGreaterThanOrEqual(-0.01);
+    expect(t[1], `${p.id} tag off top`).toBeGreaterThanOrEqual(-0.01);
     expect(t[2], `${p.id} tag off right`).toBeLessThanOrEqual(o.width + 0.01);
     expect(t[3], `${p.id} tag off bottom`).toBeLessThanOrEqual(o.height + 0.01);
     for (const q of placed) {

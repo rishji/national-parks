@@ -1,19 +1,28 @@
 /** tagW: width of the name tag drawn centered under the badge (omit when no tag is shown). */
 export interface Anchor { id: string; ax: number; ay: number; tagW?: number }
 /** tagHidden: the tag couldn't be placed without covering something, so it shows on hover/focus only. */
-export interface Placed extends Anchor { x: number; y: number; leader: boolean; tagHidden?: boolean }
+export interface Placed extends Anchor { x: number; y: number; leader: boolean; tagHidden?: boolean; tagPos?: TagPos }
 export interface LayoutOpts { r: number; gap: number; width: number; height: number }
 type Seg = [number, number, number, number];
 type Box = [number, number, number, number]; // x0, y0, x1, y1
 
+export type TagPos = "below" | "above" | "right" | "left";
 export const TAG_GAP = 3; // px between badge bottom and tag top (matches .tag translateY)
 export const TAG_H = 20; // rendered tag height incl. border
 
 /** The name tag's rectangle for a placed badge, or null if it has no tag. */
-export function tagBox(p: { x: number; y: number; tagW?: number; tagHidden?: boolean }, o: Pick<LayoutOpts, "r">): Box | null {
+export function tagBox(
+  p: { x: number; y: number; tagW?: number; tagHidden?: boolean; tagPos?: TagPos },
+  o: Pick<LayoutOpts, "r">,
+): Box | null {
   if (!p.tagW || p.tagHidden) return null;
-  const top = p.y + o.r + TAG_GAP;
-  return [p.x - p.tagW / 2, top, p.x + p.tagW / 2, top + TAG_H];
+  const w = p.tagW, h = TAG_H, d = o.r + TAG_GAP;
+  switch (p.tagPos ?? "below") {
+    case "above": return [p.x - w / 2, p.y - d - h, p.x + w / 2, p.y - d];
+    case "right": return [p.x + d, p.y - h / 2, p.x + d + w, p.y + h / 2];
+    case "left": return [p.x - d - w, p.y - h / 2, p.x - d, p.y + h / 2];
+    default: return [p.x - w / 2, p.y + d, p.x + w / 2, p.y + d + h];
+  }
 }
 const circleBox = (p: Placed, r: number): Box => [p.x - r, p.y - r, p.x + r, p.y + r];
 
@@ -132,15 +141,17 @@ function untangle(ps: Placed[]) {
 
 const overlaps = (a: Box, b: Box) => a[0] < b[2] && b[0] < a[2] && a[1] < b[3] && b[1] < a[3];
 
-/** Last resort for crowded maps: keep tags greedily (badges on their own spot first) and make the rest hover-only. */
+/** Last resort for crowded maps: keep tags greedily (badges on their own spot first), trying each tag below, above,
+ * right and left of its badge, and make tags that fit nowhere hover-only. */
 function hideCollidingTags(ps: Placed[], o: LayoutOpts) {
   const kept: Box[] = [];
+  const fits = (p: Placed, t: Box) =>
+    t[0] >= 0 && t[1] >= 0 && t[2] <= o.width && t[3] <= o.height &&
+    !kept.some((k) => overlaps(t, k)) && !ps.some((q) => q !== p && overlaps(t, circleBox(q, o.r)));
   const order = ps.filter((p) => p.tagW).sort((a, b) => Number(a.leader) - Number(b.leader) || a.id.localeCompare(b.id));
   for (const p of order) {
-    const t = tagBox(p, o)!;
-    const blocked = kept.some((k) => overlaps(t, k)) || ps.some((q) => q !== p && overlaps(t, circleBox(q, o.r)));
-    if (blocked) p.tagHidden = true;
-    else kept.push(t);
+    const pos = (["below", "above", "right", "left"] as const).find((c) => fits(p, tagBox({ ...p, tagPos: c }, o)!));
+    if (pos) { p.tagPos = pos; kept.push(tagBox(p, o)!); } else p.tagHidden = true;
   }
 }
 
