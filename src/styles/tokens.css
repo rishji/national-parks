@@ -1,0 +1,21 @@
+:root {
+  --paper: #f6eedc;
+  --paper-2: #efe3c8;
+  --card: #fff8ea;
+  --ink: #1e2a2f;
+  --ink-soft: #4a5559;
+  --ocean: #0f4c5c;
+  --sunset: #f26b38;
+  --canyon: #c8402e;
+  --pine: #1f5a3d;
+  --sky: #7fc8d9;
+  --gold: #f2b33d;
+  --blush: #f29c8f;
+  --dusk: #6b4e8c;
+  --sand: #e9d3a8;
+  --accent-text: #a8321f;
+  --font-display: "Zilla Slab", Georgia, serif;
+  --font-body: Figtree, system-ui, sans-serif;
+  --shadow-hard: 6px 6px 0 var(--ink);
+  --radius: 16px;
+}
