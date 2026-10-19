@@ -10,7 +10,7 @@
 
 **Spec:** `docs/superpowers/specs/2026-10-19-national-parks-design.md` — read it before starting any task.
 **Mockup:** https://claude.ai/artifact/8wKFZrc4sL7CP9bn3pCsPf (palette, badge styling, header, panel look).
-**Mockup sources (reuse):** `/private/tmp/claude-501/-Users-rishi/2e4156ba-84c1-4156-984a-263068434ba0/scratchpad/out/icons/*.svg` (17 placeholder icons), `.../scratchpad/geo/states-albers-10m.json` (us-atlas@3.0.1 states, pre-projected), `/Users/rishi/.claude/projects/-Users-rishi/2e4156ba-84c1-4156-984a-263068434ba0/tool-results/bdv3a47t3.txt` (Rishi's sheet as Sheets API JSON). If the scratchpad is gone, regenerate: icons from `scratchpad/scripts/build-mock.mjs` (ICONS table), states via `curl -sSfL https://cdn.jsdelivr.net/npm/us-atlas@3.0.1/states-albers-10m.json`, sheet via `gws sheets +read --spreadsheet 1VZ71wra2M4h5DOHP_VnG8JOMffmSYb9pdhm20uOFTpU --range "Sheet1!A1:Z80"`.
+**Already in the repo (copied from the brainstorming session):** `src/assets/icons/*.svg` (17 placeholder icons), `src/data/states-albers-10m.json` (us-atlas@3.0.1 states, pre-projected with `geoAlbersUsa().scale(1300).translate([487.5, 305])`), `data/sources/sheet.json` (Rishi's sheet rows incl. header; source: Google Sheet `1VZ71wra2M4h5DOHP_VnG8JOMffmSYb9pdhm20uOFTpU`), `docs/mockup/build-mock.mjs` (mockup generator; its `KIND` table is the initial icon assignment). Tasks that say "copy" these are already done — just verify they exist.
 
 ## Global Constraints
 
@@ -214,7 +214,7 @@ class RO {
 
 Copy the mockup's mountain icon as `public/favicon.svg`:
 ```bash
-mkdir -p public && cp /private/tmp/claude-501/-Users-rishi/2e4156ba-84c1-4156-984a-263068434ba0/scratchpad/out/icons/mountain.svg public/favicon.svg
+mkdir -p public && cp src/assets/icons/mountain.svg public/favicon.svg
 ```
 
 `src/styles/tokens.css`:
@@ -601,7 +601,7 @@ This is the research-heavy task. It needs web access (WebSearch/WebFetch) and ca
 
 ```bash
 mkdir -p data/sources
-jq '.values' /Users/rishi/.claude/projects/-Users-rishi/2e4156ba-84c1-4156-984a-263068434ba0/tool-results/bdv3a47t3.txt > data/sources/sheet.json
+# already present — verify only
 jq 'length' data/sources/sheet.json   # Expected: 64 (header + 63)
 ```
 
@@ -644,7 +644,7 @@ Research procedure (record every URL used in `sources`):
 6. **Highlights:** 3–4 signature sights/hikes, cross-checked between NPS and earthtrekkers.com (where Earth Trekkers covers the park). Short names only.
 7. **bestSeason:** short month ranges, e.g. `"Jun–Sep"`; cross-check NPS "Plan your visit/Weather" + Earth Trekkers.
 8. **nearestAirport:** `"City (IATA) · ~N hr drive"` for the nearest commercial airport with regular service most visitors would use; boat/seaplane parks say so (`"Key West (EYW) · 2.25 hr ferry"`).
-9. **kind:** one of the 17 `ICON_KINDS`; use the mockup's assignment (in `scratchpad/scripts/build-mock.mjs`, `KIND` table) unless research shows a better fit.
+9. **kind:** one of the 17 `ICON_KINDS`; use the mockup's assignment (in `docs/mockup/build-mock.mjs`, `KIND` table) unless research shows a better fit.
 10. **region:** one of `REGIONS`. Guide: AK → Alaska; WA/OR → Pacific Northwest; CA/NV → California & Nevada; AZ/NM/UT/TX(west) → Southwest; CO/WY/MT/ID → Rocky Mountains; ND/SD → Great Plains; MN/MI/IN/OH/MO → Midwest; AR/KY/TN/NC/SC/FL/VA/WV(choose South for south-of-Ohio) → South; ME and others north/east → East; HI/AS → Hawaiʻi & Pacific; VI → Caribbean. Big Bend/Guadalupe → Southwest.
 11. **hero:** a public-domain photo on Wikimedia Commons whose license is "Public domain" with NPS/US-government authorship (template `PD-USGov-NPS` or `PD-USGov`). Prefer a wide, iconic landscape. `url` = direct `upload.wikimedia.org` file URL; `credit` = "NPS / <author>" (or "NPS" if none); `sourceUrl` = the Commons file page.
 
@@ -1052,9 +1052,9 @@ fs.writeFileSync("src/data/boundaries.json", out);
 console.log(`boundaries.json: ${(out.length / 1024).toFixed(0)} KB, ${byCode.size} units`);
 ```
 
-Copy the states file:
+States file (already present):
 ```bash
-cp /private/tmp/claude-501/-Users-rishi/2e4156ba-84c1-4156-984a-263068434ba0/scratchpad/geo/states-albers-10m.json src/data/
+ls src/data/states-albers-10m.json   # already present
 ```
 Run `npm run geo:build` → Expected: ≤ 600 KB, 62 units. If larger, raise the simplify threshold to `3e-7`.
 
@@ -1422,7 +1422,7 @@ export function layoutBadges(items: Anchor[], o: LayoutOpts): Placed[] {
 
 ```bash
 mkdir -p src/assets/icons src/assets/art src/assets/hero photos && touch src/assets/art/.gitkeep photos/.gitkeep
-cp /private/tmp/claude-501/-Users-rishi/2e4156ba-84c1-4156-984a-263068434ba0/scratchpad/out/icons/*.svg src/assets/icons/
+# icons already present in src/assets/icons/
 ls src/assets/icons | wc -l   # Expected: 17
 ```
 
