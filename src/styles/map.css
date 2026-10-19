@@ -1,0 +1,34 @@
+.map-frame { border: 2px solid var(--ink); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow-hard); background: var(--ocean); }
+.map-wrap { position: relative; width: 100%; }
+.map-svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
+.map-svg:active { cursor: grabbing; }
+.state-labels text { font-family: var(--font-body); font-weight: 600; letter-spacing: .18em; fill: #9c8160; text-anchor: middle; pointer-events: none; }
+.inset-label { font-family: var(--font-body); font-weight: 700; letter-spacing: .14em; fill: var(--paper); text-anchor: middle; }
+.fp { fill: rgba(31, 90, 61, .38); stroke: var(--pine); stroke-width: 1; cursor: pointer; transition: fill .15s, opacity .15s; }
+.fp.on { fill: rgba(242, 179, 61, .75); stroke: var(--ink); }
+.fp.dim { opacity: .25; }
+.leaders { position: absolute; inset: 0; pointer-events: none; }
+.leaders line { stroke: var(--ink); stroke-width: 1.3; opacity: .8; }
+.leaders circle { fill: var(--ink); }
+.leaders .on line { stroke: var(--gold); stroke-width: 2.5; opacity: 1; }
+.leaders .on circle { fill: var(--gold); }
+.badges { position: absolute; inset: 0; pointer-events: none; }
+.badge { position: absolute; transform: translate(-50%, -50%); padding: 0; border: 0; background: none; cursor: pointer; pointer-events: auto;
+  z-index: 2; transition: transform .18s ease, left .35s ease, top .35s ease; animation: pop .4s backwards; }
+@keyframes pop { from { transform: translate(-50%, -50%) scale(0); } }
+.badge img { display: block; width: 100%; height: 100%; border-radius: 50%; border: 2.5px solid var(--paper); box-shadow: 0 0 0 1.5px var(--ink);
+  filter: saturate(.18) brightness(1.08); opacity: .82; transition: filter .18s, opacity .18s; }
+.badge.v img { border-color: var(--gold); box-shadow: 0 0 0 1.5px var(--ink), 0 3px 6px rgba(10, 30, 36, .45); filter: none; opacity: 1; }
+.chk { position: absolute; right: -12%; top: -12%; width: 44%; height: 44%; border-radius: 50%; background: var(--gold); border: 1.5px solid var(--ink);
+  display: flex; align-items: center; justify-content: center; font-size: 9px; font-weight: 800; color: var(--ink); }
+.tag { position: absolute; left: 50%; top: 100%; transform: translate(-50%, 3px); white-space: nowrap; font: 700 10.5px/1 var(--font-body); color: var(--ink);
+  background: var(--paper); border: 1.5px solid var(--ink); border-radius: 4px; padding: 3px 6px; opacity: 0; pointer-events: none; transition: opacity .15s; }
+.badge.v .tag { opacity: 1; }
+.badge.v { z-index: 3; }
+.badge:hover, .badge:focus-visible, .badge.sel { transform: translate(-50%, -50%) scale(1.45); z-index: 5; }
+.badge:hover img, .badge:focus-visible img, .badge.sel img { filter: none; opacity: 1; }
+.badge:hover .tag, .badge:focus-visible .tag, .badge.sel .tag { opacity: 1; background: var(--ink); color: var(--paper); }
+.badge.dim { opacity: .18; }
+.zoom-btns { position: absolute; left: 14px; top: 14px; display: flex; flex-direction: column; gap: 6px; z-index: 6; }
+.zoom-btns button { width: 44px; height: 44px; border-radius: 10px; border: 2px solid var(--ink); background: var(--paper); font-weight: 700; font-size: 20px; cursor: pointer; }
+@media (max-width: 640px) { .tag { display: none; } .badge.v .chk { display: none; } }
