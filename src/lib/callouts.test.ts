@@ -79,3 +79,9 @@ test("zoomed in: only in-frame anchors are laid out and fewer need leaders", () 
   const base = layoutBadges(realAnchors(width).items, o).filter((p) => p.leader).length;
   expect(placed.filter((p) => p.leader).length).toBeLessThan(base);
 });
+
+test("desktop options with room for name tags (gap 20, bottom inset 22) still lay out cleanly", () => {
+  const { items, o } = realAnchors(1216);
+  const opts = { ...o, r: 17, gap: 20, height: o.height - 22 };
+  assertClean(layoutBadges(items, opts), opts);
+});

@@ -1,4 +1,4 @@
-.map-frame { border: 2px solid var(--ink); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow-hard); background: var(--ocean); }
+.map-frame { position: relative; border: 2px solid var(--ink); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow-hard); background: var(--ocean); }
 .map-wrap { position: relative; width: 100%; }
 .map-svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
 .map-svg:active { cursor: grabbing; }
@@ -29,6 +29,11 @@
 .badge:hover img, .badge:focus-visible img, .badge.sel img { filter: none; opacity: 1; }
 .badge:hover .tag, .badge:focus-visible .tag, .badge.sel .tag { opacity: 1; background: var(--ink); color: var(--paper); }
 .badge.dim { opacity: .18; }
-.zoom-btns { position: absolute; left: 14px; top: 14px; display: flex; flex-direction: column; gap: 6px; z-index: 6; }
+.zoom-btns { position: absolute; right: 14px; top: 14px; display: flex; gap: 6px; z-index: 6; }
 .zoom-btns button { width: 44px; height: 44px; border-radius: 10px; border: 2px solid var(--ink); background: var(--paper); font-weight: 700; font-size: 20px; cursor: pointer; }
-@media (max-width: 640px) { .tag { display: none; } .badge.v .chk { display: none; } }
+@media (max-width: 640px) {
+  .tag { display: none; }
+  .badge.v .chk { display: none; }
+  /* On phones the overlay would hide a third of the West; dock the controls in a bar under the map instead. */
+  .zoom-btns { position: static; flex-direction: row; justify-content: flex-end; padding: 8px 10px; background: var(--paper-2); border-top: 2px solid var(--ink); }
+}

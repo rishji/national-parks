@@ -24,7 +24,11 @@ export function MapView({ parks, visited, filter, selectedId, onSelect, hoveredI
   const [t, setT] = useState<ZoomTransform>(zoomIdentity);
   const s = width / MAP_W;
   const height = MAP_H * s;
-  const r = width < 640 ? 10 : 17;
+  const small = width < 640;
+  const r = small ? 10 : 17;
+  // Desktop shows name tags under visited badges: leave room for them between badges and above the bottom edge.
+  const gap = small ? 4 : 20;
+  const tagRoom = small ? 0 : 22;
 
   useLayoutEffect(() => {
     const el = wrapRef.current!;
@@ -53,8 +57,8 @@ export function MapView({ parks, visited, filter, selectedId, onSelect, hoveredI
         return { id: p.id, ax: x * s, ay: y * s };
       })
       .filter((a) => a.ax >= 0 && a.ax <= width && a.ay >= 0 && a.ay <= height);
-    return layoutBadges(items, { r, gap: 4, width, height });
-  }, [parks, t, s, width, height, r]);
+    return layoutBadges(items, { r, gap, width, height: height - tagRoom });
+  }, [parks, t, s, width, height, r, gap, tagRoom]);
 
   const byId = useMemo(() => new Map(parks.map((p) => [p.id, p])), [parks]);
   const zoomBy = (k: number) => zoomRef.current && select(svgRef.current!).transition().duration(300).call(zoomRef.current.scaleBy, k);
@@ -135,11 +139,11 @@ export function MapView({ parks, visited, filter, selectedId, onSelect, hoveredI
           })}
         </div>
 
-        <div className="zoom-btns">
-          <button type="button" aria-label="Zoom in" onClick={() => zoomBy(1.6)}>+</button>
-          <button type="button" aria-label="Zoom out" onClick={() => zoomBy(1 / 1.6)}>−</button>
-          <button type="button" aria-label="Reset zoom" onClick={reset}>⟲</button>
-        </div>
+      </div>
+      <div className="zoom-btns">
+        <button type="button" aria-label="Zoom in" onClick={() => zoomBy(1.6)}>+</button>
+        <button type="button" aria-label="Zoom out" onClick={() => zoomBy(1 / 1.6)}>−</button>
+        <button type="button" aria-label="Reset zoom" onClick={reset}>⟲</button>
       </div>
     </div>
   );
