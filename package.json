@@ -17,7 +17,8 @@
     "heroes:fetch": "tsx scripts/fetch-heroes.ts",
     "photos:add": "tsx scripts/photos-add.ts",
     "art:add": "tsx scripts/art-add.ts",
-    "deploy": "npm run build && wrangler pages deploy dist --project-name national-parks"
+    "deploy": "npm run build && wrangler pages deploy dist --project-name national-parks",
+    "art:sheet": "tsx scripts/art-sheet.ts"
   },
   "dependencies": {
     "d3-geo": "^3.1.1",
