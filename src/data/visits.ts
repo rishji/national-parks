@@ -75,7 +75,12 @@ export const visits: Visit[] = [
       "grand-canyon-5.jpg",
     ],
   },
-  { park: "grand-teton" },
+  {
+    park: "grand-teton",
+    start: "2009-07-17",
+    end: "2009-07-19",
+    with: ["Garrett Manhal", "Matt Graf", "Sophie Ryan"],
+  },
   {
     park: "guadalupe-mountains",
     start: "2024-03-14",
@@ -109,6 +114,28 @@ export const visits: Visit[] = [
     end: "2025-06-21",
     with: ["Esha Joshi"],
     photos: ["kenai-fjords-1.jpg", "kenai-fjords-2.jpg", "kenai-fjords-3.jpg", "kenai-fjords-4.jpg"],
+  },
+  {
+    park: "mount-rainier",
+    start: "2026-08-07",
+    end: "2026-08-08",
+    with: [
+      "Kabir Dos Santos",
+      "Stefani Herr",
+      "Esha Joshi",
+      "Sheel Mohnot",
+      "Amruta Godbole",
+      "Amrit Dhir",
+      "Arpana Dhir",
+      "Kiran Dos Santos",
+    ],
+    photos: [
+      "mount-rainier-1.jpg",
+      "mount-rainier-2.jpg",
+      "mount-rainier-3.jpg",
+      "mount-rainier-4.jpg",
+      "mount-rainier-5.jpg",
+    ],
   },
   {
     park: "new-river-gorge",
@@ -154,7 +181,12 @@ export const visits: Visit[] = [
     with: ["Robert Slaughter"],
     photos: ["white-sands-1.jpg", "white-sands-2.jpg", "white-sands-3.jpg", "white-sands-4.jpg"],
   },
-  { park: "yellowstone", start: "2009-07-17", end: "2009-07-19" },
+  {
+    park: "yellowstone",
+    start: "2009-07-17",
+    end: "2009-07-19",
+    with: ["Garrett Manhal", "Matt Graf", "Sophie Ryan"],
+  },
   {
     park: "yosemite",
     start: "2019-08-18",
