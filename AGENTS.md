@@ -12,6 +12,7 @@ npm run geo:build        # → src/data/boundaries.json
 npm run heroes:fetch     # hero photos → src/assets/hero/ (network)
 npm run photos:add -- <park-id> <visit-number> <files…>
 npm run art:add -- <park-id> <image-file>
+npm run art:sheet -- <sheet-image>   # 8x8 sheet of round badges in parks.json order -> all art at once
 
 Local installs: this Mac has Homebrew libvips, which makes `sharp` try a source build. Run
 `SHARP_IGNORE_GLOBAL_LIBVIPS=1 npm install` (or `npm ci`) to use sharp's prebuilt binary.
